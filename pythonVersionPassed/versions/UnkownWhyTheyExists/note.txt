@@ -1,0 +1,8 @@
+these files:
+ * move out claude_code__m_claude-haiku-4.5__l_python__run000.py
+ * move out gemini__m_gemini-2.5-flash-lite__l_python__run000.py
+ * move out gemini__m_gemini-2.5-flash__l_python__run000.py
+ * move out opencode__m_google_gemma-4-26b-a4b-it__l_python__run000.py
+were the only python files found in the directory
+ * "Knight-Leveson-Redux/results/versions/"
+it is unknown why, possibly someone forgot to delete them from the repo.
