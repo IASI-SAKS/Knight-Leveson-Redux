@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=68"]
-build-backend = "setuptools.backends.legacy:build"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "nvp-ai-experiment"
@@ -20,6 +20,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=7.4", "pytest-xdist", "hypothesis>=6.92"]
+coverage = ["coverage>=6.4"]
 
 [tool.setuptools.packages.find]
 where = ["."]
