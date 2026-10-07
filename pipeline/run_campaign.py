@@ -50,6 +50,12 @@ from benchmarks.launch_interceptor.generator import iter_test_cases
 from harnesses.json_protocol import case_to_json_line, parse_output_line
 from pipeline.harness_runtime import resolve_harness_root
 from pipeline.oracle_cache import OracleCache, load_or_build_oracle_cache
+from pipeline.coverage_runtime import (
+    coverage_record,
+    run_python_artifact,
+    unavailable,
+    unavailable_if_requested,
+)
 
 _CASE_TIMEOUT_SECONDS = 30.0
 _NOFILE_TARGET = 8192
@@ -95,7 +101,7 @@ def _cap_campaign_workers(requested: int) -> tuple[int, int, str | None]:
 
 
 class ArtifactRunner(Protocol):
-    def invoke(self, case_bytes: bytes) -> tuple[list[bool], list[list[bool]], list[bool], bool]:
+    def invoke(self, case_bytes: bytes, *, test_id: int | None = None) -> Any:
         ...
 
     def close(self) -> None:
@@ -135,18 +141,45 @@ def _artifact_command(language: str, artifact_path: Path) -> list[str]:
 
 
 class OneShotArtifactRunner:
-    def __init__(self, language: str, artifact_path: Path) -> None:
+    def __init__(self, language: str, artifact_path: Path, *, collect_coverage: bool = False) -> None:
         self._language = language
         self._artifact_path = artifact_path
         self._cmd = _artifact_command(language, artifact_path)
         self._cwd = str(artifact_path.parent)
         self._env = _SUBPROCESS_ENV
+        self._collect_coverage = collect_coverage and language == "python"
 
-    def invoke(self, case_bytes: bytes) -> tuple[list[bool], list[list[bool]], list[bool], bool]:
+    def invoke(
+        self, case_bytes: bytes, *, test_id: int | None = None
+    ) -> tuple[list[bool], list[list[bool]], list[bool], bool] | tuple[
+        tuple[list[bool], list[list[bool]], list[bool], bool], dict[str, Any]
+    ]:
         sem = _invoke_semaphore
         if sem is not None:
             sem.acquire()
         try:
+            if self._collect_coverage:
+                result, cov = run_python_artifact(
+                    self._artifact_path,
+                    case_bytes,
+                    cwd=self._cwd,
+                    env=self._env,
+                    timeout=_CASE_TIMEOUT_SECONDS,
+                )
+                if result is None:
+                    raise RuntimeError(cov.get("collection_note", "coverage execution unavailable"))
+                if result.returncode != 0:
+                    stderr = (result.stderr or b"").decode("utf-8", errors="replace").strip()[:1000]
+                    stdout = (result.stdout or b"").decode("utf-8", errors="replace").strip()[:1000]
+                    raise _CandidateInvocationError(
+                        f"artifact exited {result.returncode}; stdout={stdout!r}; stderr={stderr!r}", cov
+                    )
+                try:
+                    actual = parse_output_line((result.stdout or b"").decode("utf-8", errors="replace"))
+                except Exception as exc:
+                    raise _CandidateInvocationError(str(exc), cov) from exc
+                return actual, cov
+
             result = subprocess.run(
                 self._cmd,
                 input=case_bytes,
@@ -194,10 +227,18 @@ class MissingArtifactRunner:
         return None
 
 
-def _build_runner(language: str, artifact_path: Path | None, runner_err: str) -> ArtifactRunner:
+class _CandidateInvocationError(RuntimeError):
+    def __init__(self, message: str, coverage_data: dict[str, Any]) -> None:
+        super().__init__(message)
+        self.coverage_data = coverage_data
+
+
+def _build_runner(
+    language: str, artifact_path: Path | None, runner_err: str, *, collect_coverage: bool = False
+) -> ArtifactRunner:
     if artifact_path is None:
         return MissingArtifactRunner(runner_err or "artifact not available")
-    return OneShotArtifactRunner(language, artifact_path)
+    return OneShotArtifactRunner(language, artifact_path, collect_coverage=collect_coverage)
 
 
 def _compare_actual_to_expected(
@@ -217,16 +258,30 @@ def _eval_one_version(
     case_bytes: bytes,
     expected_packed: PackedDecideOutput,
     expected_digest: int,
-) -> tuple[bool, str, tuple[list[bool], list[list[bool]], list[bool], bool] | None]:
+    test_id: int,
+) -> tuple[bool, str, tuple[list[bool], list[list[bool]], list[bool], bool] | None, dict[str, Any] | None]:
     exc_msg = ""
     result: tuple[list[bool], list[list[bool]], list[bool], bool] | None = None
+    cov_data: dict[str, Any] | None = None
     try:
-        result = version["runner"].invoke(case_bytes)
+        if version.get("coverage_enabled"):
+            invocation = version["runner"].invoke(case_bytes, test_id=test_id)
+        else:
+            invocation = version["runner"].invoke(case_bytes)
+        if version.get("coverage_enabled") and isinstance(invocation, tuple) and len(invocation) == 2:
+            result, cov_data = invocation
+        else:
+            result = invocation
         passed = _compare_actual_to_expected(expected_packed, expected_digest, result)
-        return passed, exc_msg, result
+        if version.get("coverage_enabled") and cov_data is None:
+            cov_data = unavailable_if_requested(True)
+        return passed, exc_msg, result, cov_data
     except Exception as exc:
         exc_msg = str(exc)[:200]
-        return False, exc_msg, result
+        cov_data = getattr(exc, "coverage_data", None)
+        if version.get("coverage_enabled") and cov_data is None:
+            cov_data = unavailable_if_requested(True)
+        return False, exc_msg, result, cov_data
 
 
 def _oracle_cache_dir(accepted_path: str, config: dict[str, Any], override: str | None) -> Path:
@@ -313,9 +368,10 @@ def _flush_completed_test(
     summary: dict[str, dict[str, int]],
     fault_out,
     fault_log_detail: str,
+    coverage_out=None,
 ) -> None:
     expected_tuple = None
-    for version, (passed, exc_msg, result) in zip(versions, pending_entry["outcomes"]):
+    for version, (passed, exc_msg, result, cov_data) in zip(versions, pending_entry["outcomes"]):
         writer.writerow({
             "test_id": test_id,
             "version_id": version["version_id"],
@@ -327,6 +383,13 @@ def _flush_completed_test(
         })
         summary[version["version_id"]]["total"] += 1
         summary[version["version_id"]]["passed_count"] += int(passed)
+
+        if coverage_out is not None:
+            coverage_data = cov_data or unavailable("coverage was not collected")
+            coverage_out.write(json.dumps(
+                coverage_record(test_id, version["version_id"], passed, coverage_data),
+                separators=(",", ":"),
+            ) + "\n")
 
         if fault_out and not passed:
             if result is None:
@@ -365,6 +428,8 @@ def run(
     harness_root: str | None = None,
     workers: int | None = None,
     oracle_cache_dir: str | None = None,
+    collect_coverage: bool = False,
+    coverage_output: str | None = None,
 ) -> None:
     config = yaml.safe_load(Path(config_path).read_text())
     if harness_root:
@@ -439,7 +504,7 @@ def run(
                 artifact_path = None
         else:
             runner_err = "missing artifact_file"
-        runner = _build_runner(lang, artifact_path, runner_err)
+        runner = _build_runner(lang, artifact_path, runner_err, collect_coverage=collect_coverage)
         versions.append({
             "version_id": version_id,
             "agent": entry["agent"],
@@ -448,6 +513,7 @@ def run(
             "language": lang,
             "artifact_path": artifact_path,
             "runner": runner,
+            "coverage_enabled": collect_coverage,
         })
 
     _precompile_python_artifacts(artifact_root_for_python, versions)
@@ -466,11 +532,20 @@ def run(
 
     output_path_p = Path(output_path)
     output_path_p.parent.mkdir(parents=True, exist_ok=True)
+    coverage_path_p: Path | None = None
+    if collect_coverage:
+        coverage_path_p = Path(coverage_output) if coverage_output else output_path_p.with_name(
+            output_path_p.stem + ".coverage.jsonl"
+        )
+        if not coverage_path_p.is_absolute():
+            coverage_path_p = (Path.cwd() / coverage_path_p).resolve()
+        coverage_path_p.parent.mkdir(parents=True, exist_ok=True)
     summary: dict[str, dict[str, int]] = {
         v["version_id"]: {"total": 0, "passed_count": 0} for v in versions
     }
 
     fault_out = fault_log_p.open("w", encoding="utf-8") if fault_log_p else None
+    coverage_out = coverage_path_p.open("w", encoding="utf-8") if coverage_path_p else None
     executor: ThreadPoolExecutor | None = None
     global _invoke_semaphore
     if campaign_workers > 1:
@@ -502,7 +577,7 @@ def run(
                     )
                     case_bytes = (case_to_json_line(case) + "\n").encode("utf-8")
                     outcomes = [
-                        _eval_one_version(version, case_bytes, expected_packed, expected_digest)
+                        _eval_one_version(version, case_bytes, expected_packed, expected_digest, test_id)
                         for version in versions
                     ]
                     _flush_completed_test(
@@ -517,6 +592,7 @@ def run(
                         summary,
                         fault_out,
                         fault_log_detail,
+                        coverage_out,
                     )
                     if (test_id + 1) % progress_every == 0 or test_id + 1 == campaign_n:
                         print(f"  {test_id + 1}/{campaign_n} tests done", flush=True)
@@ -529,7 +605,7 @@ def run(
                 max_in_flight = campaign_workers
                 case_iter = iter_test_cases(campaign_n, seed=seed, include_oracle_outputs=False)
                 pending: dict[int, dict[str, Any]] = {}
-                in_flight: dict[Future[tuple[bool, str, tuple[list[bool], list[list[bool]], list[bool], bool] | None]], tuple[int, int]] = {}
+                in_flight: dict[Future[tuple[bool, str, tuple[list[bool], list[list[bool]], list[bool], bool] | None, dict[str, Any] | None]], tuple[int, int]] = {}
                 submit_test_id = 0
                 submit_version_index = 0
                 next_flush_test_id = 0
@@ -568,6 +644,7 @@ def run(
                         entry["case_bytes"],
                         entry["expected_packed"],
                         entry["expected_digest"],
+                        test_id,
                     )
                     in_flight[future] = (test_id, version_index)
                     submit_version_index += 1
@@ -600,6 +677,7 @@ def run(
                             summary,
                             fault_out,
                             fault_log_detail,
+                            coverage_out,
                         )
                         next_flush_test_id += 1
                         if next_flush_test_id % progress_every == 0 or next_flush_test_id == campaign_n:
@@ -613,6 +691,8 @@ def run(
             executor.shutdown(wait=True)
         if fault_out is not None:
             fault_out.close()
+        if coverage_out is not None:
+            coverage_out.close()
         for version in versions:
             try:
                 version["runner"].close()
@@ -647,6 +727,8 @@ def run(
     print(f"Versions meta: {meta_path}")
     if fault_log_p is not None:
         print(f"Fault log (failures only): {fault_log_p}")
+    if coverage_path_p is not None:
+        print(f"Coverage JSONL: {coverage_path_p}")
 
 
 def main() -> None:
@@ -687,6 +769,16 @@ def main() -> None:
         default=None,
         help="Optional directory for reusable packed oracle outputs. Defaults to `<results>/oracle_cache/`.",
     )
+    parser.add_argument(
+        "--coverage",
+        action="store_true",
+        help="Collect isolated per-test line coverage for Python candidate artifacts.",
+    )
+    parser.add_argument(
+        "--coverage-output",
+        default=None,
+        help="Coverage JSONL path (default: <campaign-stem>.coverage.jsonl).",
+    )
     args = parser.parse_args()
     try:
         harness_root = resolve_harness_root(args.harness_root, args.realcompare_harness)
@@ -700,6 +792,8 @@ def main() -> None:
         harness_root=harness_root,
         workers=args.workers,
         oracle_cache_dir=args.oracle_cache_dir,
+        collect_coverage=args.coverage,
+        coverage_output=args.coverage_output,
     )
 
 
