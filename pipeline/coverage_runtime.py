@@ -3,6 +3,7 @@
 The reported line percentage is covered executable statement lines divided by
 all executable statement lines in the candidate's primary artifact file. Other
 files are intentionally excluded from both the numerator and denominator.
+`executed_lines` and `missing_lines` partition that executable statement set.
 """
 from __future__ import annotations
 
@@ -31,11 +32,13 @@ def unavailable(note: str) -> dict[str, Any]:
 def _file_metrics(cov: Any, file_report: dict[str, Any], filename: str) -> dict[str, Any]:
     _filename, statements, excluded, _missing, _formatted = cov.analysis2(filename)
     executable = set(statements) - set(excluded)
-    executed = sorted(set(cov.get_data().lines(filename) or ()))
-    covered = executable & set(executed)
+    executed = executable & set(cov.get_data().lines(filename) or ())
+    missing = executable - executed
+    executed_lines = sorted(executed)
+    missing_lines = sorted(missing)
     summary = file_report["summary"]
     total_lines = len(executable)
-    covered_lines = len(covered)
+    covered_lines = len(executed)
     total_branches = int(summary["num_branches"])
     covered_branches = int(summary["covered_branches"])
     # coverage.py JSON's executed_branches/missing_branches are branch arcs:
@@ -43,8 +46,20 @@ def _file_metrics(cov: Any, file_report: dict[str, Any], filename: str) -> dict[
     # report's summary counts come from coverage.py's branch-number accounting,
     # not from the length of either arc list. Preserve negative endpoints:
     # coverage.py uses them as code-object entry/exit markers, not source lines.
-    executed_branch_arcs = sorted(file_report.get("executed_branches", []))
-    missing_branch_arcs = sorted(file_report.get("missing_branches", []))
+    if "executed_branches" in file_report and "missing_branches" in file_report:
+        executed_branch_arcs = sorted(file_report["executed_branches"])
+        missing_branch_arcs = sorted(file_report["missing_branches"])
+    else:
+        # Older coverage.py JSON reports omit arc details even when branch
+        # summaries are available. Reconstruct only arcs from branch lines.
+        analysis = cov._analyze(filename)
+        branch_lines = set(analysis.branch_stats())
+        possible_arcs = {
+            arc for arc in analysis.arc_possibilities() if arc[0] in branch_lines
+        }
+        executed_arcs = possible_arcs & set(analysis.arcs_executed())
+        executed_branch_arcs = sorted(executed_arcs)
+        missing_branch_arcs = sorted(possible_arcs - executed_arcs)
     return {
         "line_percent": round(100.0 * covered_lines / total_lines if total_lines else 100.0, 4),
         "covered_lines": covered_lines,
@@ -55,7 +70,8 @@ def _file_metrics(cov: Any, file_report: dict[str, Any], filename: str) -> dict[
         ),
         "covered_branches": covered_branches,
         "total_branches": total_branches,
-        "executed_lines": executed,
+        "executed_lines": executed_lines,
+        "missing_lines": missing_lines,
         "executed_branch_arcs": executed_branch_arcs,
         "missing_branch_arcs": missing_branch_arcs,
     }
@@ -68,6 +84,7 @@ def _collected_record(tool_version: str, file_metrics: dict[str, dict[str, Any]]
     total_branches = sum(metrics["total_branches"] for metrics in file_metrics.values())
     covered_branches = sum(metrics["covered_branches"] for metrics in file_metrics.values())
     executed_lines = sorted({line for metrics in file_metrics.values() for line in metrics["executed_lines"]})
+    missing_lines = sorted({line for metrics in file_metrics.values() for line in metrics["missing_lines"]})
     executed_branch_arcs = sorted({
         tuple(arc) for metrics in file_metrics.values() for arc in metrics["executed_branch_arcs"]
     })
@@ -87,6 +104,7 @@ def _collected_record(tool_version: str, file_metrics: dict[str, dict[str, Any]]
         "covered_branches": covered_branches,
         "total_branches": total_branches,
         "executed_lines": executed_lines,
+        "missing_lines": missing_lines,
         "executed_branch_arcs": [list(arc) for arc in executed_branch_arcs],
         "missing_branch_arcs": [list(arc) for arc in missing_branch_arcs],
     }
