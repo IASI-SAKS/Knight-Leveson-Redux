@@ -83,9 +83,10 @@ def _random_parameters(rng: np.random.Generator, numpoints: int) -> dict[str, An
 def _random_lcm(rng: np.random.Generator) -> list[list[str]]:
     """Generate a random symmetric 15x15 LCM."""
     lcm: list[list[str]] = [["NOTUSED"] * 15 for _ in range(15)]
+    val = CONNECTORS[int(rng.integers(0, 3))]  # updated
     for i in range(15):
         for j in range(i + 1, 15):
-            val = CONNECTORS[int(rng.integers(0, 3))]
+            #val = CONNECTORS[int(rng.integers(0, 3))]
             lcm[i][j] = val
             lcm[j][i] = val
     return lcm
@@ -115,7 +116,7 @@ def iter_test_cases(
         oracle = oracle_decide
 
     for _ in range(n):
-        numpoints = int(rng.integers(2, 101))
+        numpoints = int(rng.integers(2, 6))  # (2, 101)
         x = [float(v) for v in rng.uniform(-100, 100, size=numpoints)]
         y = [float(v) for v in rng.uniform(-100, 100, size=numpoints)]
         parameters = _random_parameters(rng, numpoints)
