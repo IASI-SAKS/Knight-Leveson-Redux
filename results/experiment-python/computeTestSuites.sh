@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PCOV_FILE="pcov-out-new.txt"
+PCOV_FILE="coverage-new.txt"
 ALTERNATIVE_IMPLEMENTATIONS_FILE="alternativeImplementations-new.txt"
 IMPLEMENTATION_DEPENDENT_TESTSUITE_DIR="ImplementationDependentTestSuites-new"
 IMPLEMENTATION_INDEPENDENT_TESTSUITE_FILE="implementationIndependentTestSuite-new.txt"
