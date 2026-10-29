@@ -49,7 +49,7 @@ while [[ $# -gt 0 ]]; do
       shift # past argument
       ;;
     -h|--help)
-      echo "$1 [-f|--coverage_file <coverage_file>] [-i|--independet_size size] [-d|--dependet_size size] [-a|--gen_all]"
+      echo "$1 [-c|--coverage_file <coverage_file>] [-f|--independet_file <filename>] [-F|--alt_impls_file <filename>] [-i|--independet_size size] [-d|--dependet_size size] [-D|--dependet_target_dir <dirname>] [-a|--gen_all] [-h|--help]"
       echo "Note that the IMPLEMENTATION INDEPENDENT_TESTSUITE is generated **ONLY** when the option \"-a|--gen_all\" is passed to $0"
       exit 1
       ;;
