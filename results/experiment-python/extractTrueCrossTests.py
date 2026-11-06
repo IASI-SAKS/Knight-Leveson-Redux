@@ -48,8 +48,8 @@ def process_file(
     Process the CSV using the specified filter column.
 
     filter_column_index:
-        10 = column K (line coverage)
-        15 = column P (branch coverage)
+        10 = column K (covered lines)
+        16 = column Q (covered branches)
     """
 
     total_rows = 0
@@ -91,7 +91,7 @@ def process_file(
             # B = index 1
             # D = index 3
             # K = index 10
-            # P = index 15
+            # Q = index 16
             #
             if len(row) <= max(filter_column_index, 3):
                 continue
@@ -190,13 +190,13 @@ def main():
 
     #
     # Process BRANCH coverage
-    # Filter on column P
+    # Filter on column Q
     #
     _, branch_rows = process_file(
         input_file=input_file,
         output_csv=branch_csv,
         output_txt=branch_txt,
-        filter_column_index=15
+        filter_column_index=16
     )
 
     print()
