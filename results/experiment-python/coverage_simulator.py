@@ -282,6 +282,23 @@ def _build_trace_rows(
     rows: list[dict[str, Any]] = []
     cumulative_lines: set[int] = set()
     cumulative_branches: set[tuple[int, int]] = set()
+    independent_lines: set[int] = set()
+    independent_branches: set[tuple[int, int]] = set()
+    for test_id in independent_suite:
+        key = (test_id, target_implementation)
+        if key not in history:
+            if strict:
+                raise ValueError(
+                    f"Missing coverage for test_id={test_id} and version_id={target_implementation!r} in history"
+                )
+            continue
+        record = _collect_test_record(test_id, target_implementation, history)
+        independent_lines.update(int(value) for value in record.get("executed_lines", []))
+        independent_branches.update(
+            (int(arc[0]), int(arc[1]))
+            for arc in record.get("executed_branch_arcs", [])
+            if isinstance(arc, (list, tuple)) and len(arc) == 2
+        )
     independent_count = len(independent_suite)
     step_index = 0
 
@@ -309,6 +326,20 @@ def _build_trace_rows(
 
         suite_type = "independent" if step_index <= independent_count else "dependent"
         suite_position = step_index if suite_type == "independent" else step_index - independent_count
+        if suite_type == "dependent":
+            new_lines_covered = len(set(executed_lines) - independent_lines)
+            new_branches_covered = len(set(executed_arcs) - independent_branches)
+            delta_line_percent_vs_independent: float | str = _safe_float_percentage(
+                new_lines_covered, int(record.get("total_lines"))
+            )
+            delta_branch_percent_vs_independent: float | str = _safe_float_percentage(
+                new_branches_covered, int(record.get("total_branches"))
+            )
+        else:
+            new_lines_covered = "N/A"
+            new_branches_covered = "N/A"
+            delta_line_percent_vs_independent = "N/A"
+            delta_branch_percent_vs_independent = "N/A"
 
         rows.append(
             {
@@ -321,11 +352,15 @@ def _build_trace_rows(
                 "covered_lines": len(cumulative_lines),
                 "total_lines": int(record.get("total_lines")),
                 "line_percent": _safe_float_percentage(len(cumulative_lines), int(record.get("total_lines"))),
-                "new_lines_covered": len(cumulative_lines - before_lines),
+                "new_lines_cumulatively_covered": len(cumulative_lines - before_lines),
+                "new_lines_covered": new_lines_covered,
+                "delta_line_percent_vs_independent": delta_line_percent_vs_independent,
                 "covered_branches": len(cumulative_branches),
                 "total_branches": int(record.get("total_branches")),
                 "branch_percent": _safe_float_percentage(len(cumulative_branches), int(record.get("total_branches"))),
-                "new_branches_covered": len(cumulative_branches - before_branches),
+                "new_branches_cumulatively_covered": len(cumulative_branches - before_branches),
+                "new_branches_covered": new_branches_covered,
+                "delta_branch_percent_vs_independent": delta_branch_percent_vs_independent,
             }
         )
     return rows
@@ -378,11 +413,15 @@ def write_reports(
                     "covered_lines",
                     "total_lines",
                     "line_percent",
+                    "new_lines_cumulatively_covered",
                     "new_lines_covered",
+                    "delta_line_percent_vs_independent",
                     "covered_branches",
                     "total_branches",
                     "branch_percent",
+                    "new_branches_cumulatively_covered",
                     "new_branches_covered",
+                    "delta_branch_percent_vs_independent",
                 ],
             )
             writer.writeheader()
