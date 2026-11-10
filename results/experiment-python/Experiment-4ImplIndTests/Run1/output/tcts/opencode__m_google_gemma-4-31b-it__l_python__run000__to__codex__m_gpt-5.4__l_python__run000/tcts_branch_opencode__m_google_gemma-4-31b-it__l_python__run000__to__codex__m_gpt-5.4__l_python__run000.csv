@@ -1,0 +1,7 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+6,dependent,2,1,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4__l_python__run000,215,231,93.07359307359307,1,1,0.4329004329004329,92,122,75.40983606557377,1,1,0.819672131147541
+8,dependent,4,38,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4__l_python__run000,216,231,93.50649350649351,1,2,0.8658008658008658,95,122,77.8688524590164,3,4,3.278688524590164
+9,dependent,5,45,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4__l_python__run000,216,231,93.50649350649351,0,1,0.4329004329004329,95,122,77.8688524590164,0,1,0.819672131147541
+10,dependent,6,4,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4__l_python__run000,216,231,93.50649350649351,0,1,0.4329004329004329,95,122,77.8688524590164,0,2,1.639344262295082
+12,dependent,8,69,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4__l_python__run000,217,231,93.93939393939394,1,2,0.8658008658008658,97,122,79.50819672131148,2,5,4.098360655737705
+14,dependent,10,71,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4__l_python__run000,217,231,93.93939393939394,0,1,0.4329004329004329,97,122,79.50819672131148,0,1,0.819672131147541

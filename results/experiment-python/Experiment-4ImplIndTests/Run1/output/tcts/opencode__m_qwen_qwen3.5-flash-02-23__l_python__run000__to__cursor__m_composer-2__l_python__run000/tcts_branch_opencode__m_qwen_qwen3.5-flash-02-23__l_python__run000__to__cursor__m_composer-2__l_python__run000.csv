@@ -1,0 +1,9 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+5,dependent,1,0,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,0,0.0,105,146,71.91780821917808,1,1,0.684931506849315
+6,dependent,2,13,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,0,0.0,105,146,71.91780821917808,0,1,0.684931506849315
+7,dependent,3,14,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,2,2,0.704225352112676,106,146,72.6027397260274,1,1,0.684931506849315
+8,dependent,4,2,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,106,146,72.6027397260274,0,1,0.684931506849315
+9,dependent,5,36,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,106,146,72.6027397260274,0,1,0.684931506849315
+12,dependent,8,74,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,2,0.704225352112676,106,146,72.6027397260274,0,1,0.684931506849315
+13,dependent,9,7,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,2,0.704225352112676,106,146,72.6027397260274,0,1,0.684931506849315
+14,dependent,10,99,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,108,146,73.97260273972603,2,2,1.36986301369863

@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+5,dependent,1,20,cursor__m_composer-2__l_python__run000,cursor__m_composer-2.5__l_python__run000,251,285,88.0701754385965,2,2,0.7017543859649122,112,156,71.7948717948718,3,3,1.9230769230769231
+6,dependent,2,21,cursor__m_composer-2__l_python__run000,cursor__m_composer-2.5__l_python__run000,251,285,88.0701754385965,0,1,0.3508771929824561,112,156,71.7948717948718,0,2,1.2820512820512822
+7,dependent,3,28,cursor__m_composer-2__l_python__run000,cursor__m_composer-2.5__l_python__run000,252,285,88.42105263157895,1,3,1.0526315789473684,113,156,72.43589743589743,1,4,2.5641025641025643
+8,dependent,4,38,cursor__m_composer-2__l_python__run000,cursor__m_composer-2.5__l_python__run000,252,285,88.42105263157895,0,2,0.7017543859649122,113,156,72.43589743589743,0,3,1.9230769230769231
+9,dependent,5,55,cursor__m_composer-2__l_python__run000,cursor__m_composer-2.5__l_python__run000,252,285,88.42105263157895,0,1,0.3508771929824561,113,156,72.43589743589743,0,1,0.6410256410256411
+10,dependent,6,57,cursor__m_composer-2__l_python__run000,cursor__m_composer-2.5__l_python__run000,252,285,88.42105263157895,0,1,0.3508771929824561,113,156,72.43589743589743,0,2,1.2820512820512822
+11,dependent,7,71,cursor__m_composer-2__l_python__run000,cursor__m_composer-2.5__l_python__run000,252,285,88.42105263157895,0,2,0.7017543859649122,113,156,72.43589743589743,0,2,1.2820512820512822
+13,dependent,9,89,cursor__m_composer-2__l_python__run000,cursor__m_composer-2.5__l_python__run000,252,285,88.42105263157895,0,1,0.3508771929824561,114,156,73.07692307692308,0,1,0.6410256410256411
+14,dependent,10,91,cursor__m_composer-2__l_python__run000,cursor__m_composer-2.5__l_python__run000,252,285,88.42105263157895,0,1,0.3508771929824561,114,156,73.07692307692308,0,2,1.2820512820512822
