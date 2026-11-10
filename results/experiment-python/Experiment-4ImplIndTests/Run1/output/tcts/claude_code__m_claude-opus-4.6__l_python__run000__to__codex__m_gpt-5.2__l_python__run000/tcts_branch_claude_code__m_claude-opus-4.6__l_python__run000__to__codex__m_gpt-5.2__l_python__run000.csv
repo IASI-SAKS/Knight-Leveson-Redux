@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+5,dependent,1,17,claude_code__m_claude-opus-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,300,328,91.46341463414635,3,3,0.9146341463414634,114,160,71.25,3,3,1.875
+6,dependent,2,21,claude_code__m_claude-opus-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,301,328,91.76829268292683,1,1,0.3048780487804878,116,160,72.5,2,2,1.25
+7,dependent,3,32,claude_code__m_claude-opus-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,301,328,91.76829268292683,0,3,0.9146341463414634,117,160,73.125,1,5,3.125
+8,dependent,4,37,claude_code__m_claude-opus-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,301,328,91.76829268292683,0,1,0.3048780487804878,117,160,73.125,0,2,1.25
+9,dependent,5,60,claude_code__m_claude-opus-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,301,328,91.76829268292683,0,2,0.6097560975609756,117,160,73.125,0,3,1.875
+10,dependent,6,84,claude_code__m_claude-opus-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,301,328,91.76829268292683,0,2,0.6097560975609756,117,160,73.125,0,3,1.875
+11,dependent,7,88,claude_code__m_claude-opus-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,301,328,91.76829268292683,0,0,0.0,118,160,73.75,1,2,1.25
+12,dependent,8,91,claude_code__m_claude-opus-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,301,328,91.76829268292683,0,1,0.3048780487804878,118,160,73.75,0,2,1.25
+13,dependent,9,98,claude_code__m_claude-opus-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,302,328,92.07317073170732,1,4,1.2195121951219512,121,160,75.625,3,7,4.375
+14,dependent,10,9,claude_code__m_claude-opus-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,302,328,92.07317073170732,0,1,0.3048780487804878,121,160,75.625,0,1,0.625

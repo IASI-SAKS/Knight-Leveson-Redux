@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+5,dependent,1,14,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,238,261,91.18773946360153,1,1,0.3831417624521073,104,142,73.2394366197183,1,1,0.704225352112676
+6,dependent,2,1,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,238,261,91.18773946360153,0,1,0.3831417624521073,104,142,73.2394366197183,0,1,0.704225352112676
+7,dependent,3,29,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,239,261,91.57088122605364,1,1,0.3831417624521073,105,142,73.94366197183099,1,1,0.704225352112676
+8,dependent,4,36,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,239,261,91.57088122605364,0,1,0.3831417624521073,105,142,73.94366197183099,0,1,0.704225352112676
+9,dependent,5,44,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,240,261,91.95402298850574,1,2,0.7662835249042146,107,142,75.35211267605634,2,3,2.112676056338028
+11,dependent,7,62,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,240,261,91.95402298850574,0,2,0.7662835249042146,107,142,75.35211267605634,0,2,1.408450704225352
+12,dependent,8,74,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,240,261,91.95402298850574,0,1,0.3831417624521073,107,142,75.35211267605634,0,1,0.704225352112676
+13,dependent,9,7,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,240,261,91.95402298850574,0,1,0.3831417624521073,107,142,75.35211267605634,0,1,0.704225352112676
+14,dependent,10,82,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,240,261,91.95402298850574,0,1,0.3831417624521073,107,142,75.35211267605634,0,1,0.704225352112676

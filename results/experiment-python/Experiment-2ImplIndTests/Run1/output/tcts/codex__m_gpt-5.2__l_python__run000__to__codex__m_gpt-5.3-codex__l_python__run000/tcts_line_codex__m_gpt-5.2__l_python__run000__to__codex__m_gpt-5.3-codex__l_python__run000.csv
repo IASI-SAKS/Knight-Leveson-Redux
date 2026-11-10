@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+3,dependent,1,26,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,254,280,90.71428571428571,7,7,2.5,92,132,69.6969696969697,7,7,5.303030303030303
+4,dependent,2,30,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,256,280,91.42857142857143,2,7,2.5,95,132,71.96969696969697,3,8,6.0606060606060606
+5,dependent,3,33,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,256,280,91.42857142857143,0,6,2.142857142857143,95,132,71.96969696969697,0,7,5.303030303030303
+6,dependent,4,34,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,256,280,91.42857142857143,0,6,2.142857142857143,95,132,71.96969696969697,0,7,5.303030303030303
+7,dependent,5,43,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,262,280,93.57142857142857,6,11,3.9285714285714284,101,132,76.51515151515152,6,11,8.333333333333334
+8,dependent,6,55,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,262,280,93.57142857142857,0,5,1.7857142857142858,101,132,76.51515151515152,0,5,3.787878787878788
+9,dependent,7,76,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,262,280,93.57142857142857,0,11,3.9285714285714284,101,132,76.51515151515152,0,11,8.333333333333334
+10,dependent,8,81,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,262,280,93.57142857142857,0,5,1.7857142857142858,101,132,76.51515151515152,0,5,3.787878787878788
+11,dependent,9,93,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,262,280,93.57142857142857,0,11,3.9285714285714284,101,132,76.51515151515152,0,11,8.333333333333334
+12,dependent,10,94,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,262,280,93.57142857142857,0,6,2.142857142857143,101,132,76.51515151515152,0,7,5.303030303030303
