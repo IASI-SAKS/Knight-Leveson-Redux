@@ -1,0 +1,2 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+10,dependent,8,69,codex__m_gpt-5.4-mini__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,193,206,93.68932038834951,1,1,0.4854368932038835,51,68,75.0,1,2,2.9411764705882355

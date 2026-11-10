@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+3,dependent,1,26,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.2__l_python__run000,290,328,88.41463414634147,7,7,2.1341463414634148,105,160,65.625,8,8,5.0
+4,dependent,2,30,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.2__l_python__run000,292,328,89.02439024390245,2,7,2.1341463414634148,108,160,67.5,3,8,5.0
+5,dependent,3,33,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.2__l_python__run000,292,328,89.02439024390245,0,6,1.829268292682927,108,160,67.5,0,8,5.0
+6,dependent,4,34,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.2__l_python__run000,293,328,89.32926829268293,1,7,2.1341463414634148,110,160,68.75,2,9,5.625
+7,dependent,5,43,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.2__l_python__run000,299,328,91.15853658536585,6,11,3.3536585365853657,116,160,72.5,6,11,6.875
+8,dependent,6,55,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.2__l_python__run000,300,328,91.46341463414635,1,7,2.1341463414634148,117,160,73.125,1,7,4.375
+9,dependent,7,76,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.2__l_python__run000,300,328,91.46341463414635,0,11,3.3536585365853657,117,160,73.125,0,11,6.875
+10,dependent,8,81,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.2__l_python__run000,301,328,91.76829268292683,1,6,1.829268292682927,118,160,73.75,1,6,3.75
+11,dependent,9,93,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.2__l_python__run000,301,328,91.76829268292683,0,11,3.3536585365853657,118,160,73.75,0,11,6.875
+12,dependent,10,94,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.2__l_python__run000,301,328,91.76829268292683,0,6,1.829268292682927,118,160,73.75,0,7,4.375
