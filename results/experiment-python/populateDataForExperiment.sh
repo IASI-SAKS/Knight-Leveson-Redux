@@ -1,16 +1,50 @@
 #!/bin/bash
 
+POSITIONAL_ARGS=()
+if [ $# -eq 0 ]
+then
+      echo "Use partameters: \"-t\" or \"-f\""
+      echo "Run: $0 --help"
+      exit 1
+fi
+
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    -t|--two)
+      MAGIC_NUMBER="2"
+      shift # past argument
+      ;;
+    -f|--four)
+      MAGIC_NUMBER="4"
+      shift # past argument
+      ;;
+    -h|--help)
+      echo "$0 <[-t|--two]|[-f|--four]> [-h|--help]"
+      exit 1
+      ;;
+    -*|--*)
+      echo "Unknown option $1"
+      echo "Run: $0 --help"
+      exit 1
+      ;;
+    *)
+      POSITIONAL_ARGS+=("$1") # save positional arg
+      shift # past argument
+      ;;
+  esac
+done
+
 # for iter in 1 2 3 4 5 6 7 8 9 10
 for iter in 1 
 do 
     echo "************ Processsing Run ${iter}"
     
-    EXPDIR="Experiment-4ImplIndTests"
+    EXPDIR="Experiment-${MAGIC_NUMBER}ImplIndTests"
     RUNDIR="${EXPDIR}/Run${iter}"
         
-    PAR_IMPLEMENTATIONS="${EXPDIR}/alternativeImplementations-4ImplIndTests.txt"
-    PAR_INDEPENDENT_SUITE="${RUNDIR}/implementationIndependentTestSuite-4ImplIndTests-run${iter}.txt"
-    PAR_DEPENDENT_DIR="${RUNDIR}/ImplementationDependentTestSuites-4ImplIndTests-run${iter}"
+    PAR_IMPLEMENTATIONS="${EXPDIR}/alternativeImplementations-${MAGIC_NUMBER}ImplIndTests.txt"
+    PAR_INDEPENDENT_SUITE="${RUNDIR}/implementationIndependentTestSuite-${MAGIC_NUMBER}ImplIndTests-run${iter}.txt"
+    PAR_DEPENDENT_DIR="${RUNDIR}/ImplementationDependentTestSuites-${MAGIC_NUMBER}ImplIndTests-run${iter}"
     PAR_OUTPUTDIR="${RUNDIR}/output";
 
     mkdir ${PAR_OUTPUTDIR}
