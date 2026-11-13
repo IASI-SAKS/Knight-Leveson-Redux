@@ -61,7 +61,7 @@ def get_warning(source: str, target: str) -> str:
 
 def build_csv(files: list[Path], output_path: Path):
     """Write the output CSV with one row per unique (filename, E, F) combination and its count."""
-    fieldnames = ["filename", "source_implementation", "target_implementation", "Warnings", "Number of True Cross Tests"]
+    fieldnames = ["Input File", "Source Implementation", "Target Implementation", "Warnings", "Number of True Cross Tests"]
 
     with open(output_path, "w", newline="", encoding="utf-8") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -73,18 +73,18 @@ def build_csv(files: list[Path], output_path: Path):
                 for (col_e, col_f), count in sorted(counts.items()):
                     warning = get_warning(col_e, col_f)
                     writer.writerow({
-                        "filename": f.name,
-                        "source_implementation": col_e,
-                        "target_implementation": col_f,
+                        "Input File": f.name,
+                        "Source Implementation": col_e,
+                        "Target Implementation": col_f,
                         "Warnings": warning,
                         "Number of True Cross Tests": count,
                     })
             else:
                 # file found but no matching rows
                 writer.writerow({
-                    "filename": f.name,
-                    "source_implementation": "",
-                    "target_implementation": "",
+                    "Input File": f.name,
+                    "Source Implementation": "",
+                    "Target Implementation": "",
                     "Warnings": "Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target",
                     "Number of True Cross Tests": 0,
                 })
