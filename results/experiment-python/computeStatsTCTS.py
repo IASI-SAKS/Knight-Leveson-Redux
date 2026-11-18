@@ -59,7 +59,17 @@ def get_warning(source: str, target: str) -> str:
     return ""
 
 
-def build_csv(files: list[Path], output_path: Path):
+def infer_source_target_from_filename(filename: str, prefix: str) -> tuple[str, str]:
+    """Extract <source> and <target> from a filename in the format <prefix>_<source>__to__<target>.csv."""
+    stem = Path(filename).stem  # remove .csv
+    after_prefix = stem[len(prefix) + 1:]  # remove "<prefix>_"
+    parts = after_prefix.split("__to__")
+    if len(parts) == 2:
+        return parts[0].strip(), parts[1].strip()
+    return "", ""
+
+
+def build_csv(files: list[Path], output_path: Path, prefix: str):
     """Write the output CSV with one row per unique (filename, E, F) combination and its count."""
     fieldnames = ["Input File", "Source Implementation", "Target Implementation", "Warnings", "Number of True Cross Tests"]
 
@@ -80,11 +90,12 @@ def build_csv(files: list[Path], output_path: Path):
                         "Number of True Cross Tests": count,
                     })
             else:
-                # file found but no matching rows
+                # file found but no matching rows — extract foo/boo from filename as fallback
+                source, target = infer_source_target_from_filename(f.name, prefix)
                 writer.writerow({
                     "Input File": f.name,
-                    "Source Implementation": "",
-                    "Target Implementation": "",
+                    "Source Implementation": source,
+                    "Target Implementation": target,
                     "Warnings": "Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target",
                     "Number of True Cross Tests": 0,
                 })
@@ -112,7 +123,7 @@ def main():
         print(f"Found {len(files)} file(s).")
 
     output_path = outdir / f"statistics_{args.prefix}.csv"
-    build_csv(files, output_path)
+    build_csv(files, output_path, args.prefix)
     print(f"Output saved to: {output_path.resolve()}")
 
 
