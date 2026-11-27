@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,10,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.4__l_python__run000,196,231,84.84848484848484,196,N/A,N/A,72,122,59.01639344262295,72,N/A,N/A
+2,independent,2,41,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.4__l_python__run000,198,231,85.71428571428571,2,N/A,N/A,74,122,60.65573770491803,2,N/A,N/A
+3,independent,3,66,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.4__l_python__run000,199,231,86.14718614718615,1,N/A,N/A,75,122,61.47540983606557,1,N/A,N/A
+4,independent,4,70,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.4__l_python__run000,206,231,89.17748917748918,7,N/A,N/A,83,122,68.0327868852459,8,N/A,N/A
+5,dependent,1,19,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.4__l_python__run000,206,231,89.17748917748918,0,0,0.0,84,122,68.85245901639344,1,1,0.819672131147541
+6,dependent,2,24,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.4__l_python__run000,209,231,90.47619047619048,3,3,1.2987012987012987,87,122,71.31147540983606,3,4,3.278688524590164
+7,dependent,3,28,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.4__l_python__run000,209,231,90.47619047619048,0,1,0.4329004329004329,87,122,71.31147540983606,0,2,1.639344262295082
+8,dependent,4,68,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.4__l_python__run000,209,231,90.47619047619048,0,3,1.2987012987012987,87,122,71.31147540983606,0,4,3.278688524590164
+9,dependent,5,73,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.4__l_python__run000,209,231,90.47619047619048,0,2,0.8658008658008658,87,122,71.31147540983606,0,2,1.639344262295082
+10,dependent,6,89,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.4__l_python__run000,215,231,93.07359307359307,6,7,3.0303030303030303,93,122,76.22950819672131,6,7,5.737704918032787

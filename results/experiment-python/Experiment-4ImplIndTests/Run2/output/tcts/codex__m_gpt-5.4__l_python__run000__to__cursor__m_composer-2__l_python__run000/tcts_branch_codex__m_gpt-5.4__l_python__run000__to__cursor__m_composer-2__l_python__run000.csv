@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+5,dependent,1,21,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,1,1,0.352112676056338,102,146,69.86301369863014,6,6,4.109589041095891
+6,dependent,2,30,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,103,146,70.54794520547945,1,6,4.109589041095891
+7,dependent,3,38,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,1,0.352112676056338,103,146,70.54794520547945,0,6,4.109589041095891
+8,dependent,4,50,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,109,146,74.65753424657534,6,11,7.534246575342466
+9,dependent,5,5,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,109,146,74.65753424657534,0,11,7.534246575342466
+10,dependent,6,72,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,109,146,74.65753424657534,0,11,7.534246575342466
+11,dependent,7,82,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,109,146,74.65753424657534,0,5,3.4246575342465753
+12,dependent,8,88,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,1,0.352112676056338,110,146,75.34246575342466,1,7,4.794520547945205
+13,dependent,9,91,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,1,0.352112676056338,110,146,75.34246575342466,0,6,4.109589041095891
+14,dependent,10,98,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,113,146,77.3972602739726,3,8,5.47945205479452

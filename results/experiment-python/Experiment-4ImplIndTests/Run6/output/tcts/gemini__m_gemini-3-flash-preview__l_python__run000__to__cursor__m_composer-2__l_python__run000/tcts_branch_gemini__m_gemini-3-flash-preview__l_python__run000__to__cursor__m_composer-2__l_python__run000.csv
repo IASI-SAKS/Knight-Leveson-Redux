@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+5,dependent,1,15,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,1,1,0.352112676056338,110,146,75.34246575342466,4,4,2.73972602739726
+6,dependent,2,1,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,1,0.352112676056338,110,146,75.34246575342466,0,1,0.684931506849315
+7,dependent,3,28,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,1,0.352112676056338,111,146,76.02739726027397,1,2,1.36986301369863
+8,dependent,4,31,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,0,0.0,112,146,76.71232876712328,1,2,1.36986301369863
+9,dependent,5,4,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,0,0.0,112,146,76.71232876712328,0,1,0.684931506849315
+10,dependent,6,79,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,0,0.0,112,146,76.71232876712328,0,1,0.684931506849315
+12,dependent,8,85,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,1,0.352112676056338,112,146,76.71232876712328,0,1,0.684931506849315
+13,dependent,9,88,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,1,0.352112676056338,113,146,77.3972602739726,1,2,1.36986301369863
+14,dependent,10,98,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,0,0.0,113,146,77.3972602739726,0,4,2.73972602739726

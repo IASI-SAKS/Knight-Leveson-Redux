@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+5,dependent,1,15,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,222,236,94.0677966101695,1,1,0.423728813559322,109,140,77.85714285714286,5,5,3.5714285714285716
+6,dependent,2,1,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,222,236,94.0677966101695,0,1,0.423728813559322,109,140,77.85714285714286,0,1,0.7142857142857143
+7,dependent,3,28,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,222,236,94.0677966101695,0,1,0.423728813559322,110,140,78.57142857142857,1,2,1.4285714285714286
+8,dependent,4,31,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,222,236,94.0677966101695,0,0,0.0,111,140,79.28571428571429,1,2,1.4285714285714286
+9,dependent,5,4,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,222,236,94.0677966101695,0,0,0.0,111,140,79.28571428571429,0,1,0.7142857142857143
+10,dependent,6,79,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,222,236,94.0677966101695,0,0,0.0,111,140,79.28571428571429,0,1,0.7142857142857143
+12,dependent,8,85,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,222,236,94.0677966101695,0,1,0.423728813559322,111,140,79.28571428571429,0,1,0.7142857142857143
+13,dependent,9,88,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,222,236,94.0677966101695,0,1,0.423728813559322,112,140,80.0,1,2,1.4285714285714286
+14,dependent,10,98,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,222,236,94.0677966101695,0,0,0.0,112,140,80.0,0,5,3.5714285714285716
