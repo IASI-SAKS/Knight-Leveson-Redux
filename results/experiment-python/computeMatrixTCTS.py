@@ -22,12 +22,24 @@ def parse_args():
         default="png",
         help="Output format: 'png' for static image, 'html' for interactive (default: png)"
     )
+    parser.add_argument(
+        "-s", "--minScale",
+        type=float,
+        default=None,
+        help="Minimum value for the heatmap color scale (default: min value in data)"
+    )
+    parser.add_argument(
+        "-S", "--maxScale",
+        type=float,
+        default=None,
+        help="Maximum value for the heatmap color scale (default: max value in data)"
+    )
     return parser.parse_args()
 
 
-def read_statistics(input_file: Path) -> dict[tuple[str, str], int]:
+def read_statistics(input_file: Path) -> dict[tuple[str, str], float]:
     """Read the statistics CSV and aggregate Number of True Cross Tests by (Source, Target) pair."""
-    matrix: dict[tuple[str, str], int] = {}
+    matrix: dict[tuple[str, str], float] = {}
 
     with open(input_file, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -35,27 +47,27 @@ def read_statistics(input_file: Path) -> dict[tuple[str, str], int]:
             source = row["Source Implementation"].strip()
             target = row["Target Implementation"].strip()
             try:
-                count = int(row["Number of True Cross Tests"])
+                count = float(row["Number of True Cross Tests"])
             except (ValueError, KeyError):
-                count = 0
+                count = 0.0
             key = (source, target)
-            matrix[key] = matrix.get(key, 0) + count
+            matrix[key] = matrix.get(key, 0.0) + count
 
     return matrix
 
 
-def build_matrix(matrix: dict[tuple[str, str], int]):
+def build_matrix(matrix: dict[tuple[str, str], float]):
     """Build sorted sources, targets and 2D value grid."""
     sources = sorted(set(s for s, _ in matrix))
     targets = sorted(set(t for _, t in matrix))
     grid = [
-        [matrix.get((source, target), 0) for target in targets]
+        [matrix.get((source, target), 0.0) for target in targets]
         for source in sources
     ]
     return sources, targets, grid
 
 
-def save_png(sources, targets, grid, output_path: Path):
+def save_png(sources, targets, grid, output_path: Path, vmin=None, vmax=None):
     """Save heatmap as a PNG image using seaborn and matplotlib."""
     import matplotlib.pyplot as plt
     import seaborn as sns
@@ -64,14 +76,25 @@ def save_png(sources, targets, grid, output_path: Path):
         figsize=(max(6, len(targets) * 1.2), max(5, len(sources) * 1.0))
     )
 
+    # Use a custom annotation that trims unnecessary trailing zeros
+    import numpy as np
+    grid_np = np.array(grid)
+    annot = np.where(
+        grid_np == grid_np.astype(int),
+        grid_np.astype(int).astype(str),
+        np.vectorize(lambda v: f"{v:.2f}".rstrip("0"))(grid_np)
+    )
+
     sns.heatmap(
-        grid,
-        annot=True,
-        fmt="d",
+        grid_np,
+        annot=annot,
+        fmt="",
         cmap="YlOrRd",
         xticklabels=targets,
         yticklabels=sources,
         linewidths=0.5,
+        vmin=vmin,
+        vmax=vmax,
         ax=ax
     )
 
@@ -85,7 +108,7 @@ def save_png(sources, targets, grid, output_path: Path):
     plt.close()
 
 
-def save_html(sources, targets, grid, output_path: Path):
+def save_html(sources, targets, grid, output_path: Path, vmin=None, vmax=None):
     """Save an interactive heatmap as a self-contained HTML file using D3.js."""
     import json
 
@@ -95,6 +118,10 @@ def save_html(sources, targets, grid, output_path: Path):
         for i in range(len(sources))
         for j in range(len(targets))
     ]
+
+    all_values = [d["value"] for d in data]
+    scale_min = vmin if vmin is not None else min(all_values, default=0)
+    scale_max = vmax if vmax is not None else max(all_values, default=1)
 
     html = f"""<!DOCTYPE html>
 <html>
@@ -142,8 +169,9 @@ def save_html(sources, targets, grid, output_path: Path):
         const x = d3.scaleBand().domain(targets).range([0, width]).padding(0.05);
         const y = d3.scaleBand().domain(sources).range([0, height]).padding(0.05);
 
-        const maxVal = d3.max(data, d => d.value) || 1;
-        const color  = d3.scaleSequential(d3.interpolateYlOrRd).domain([0, maxVal]);
+        const minVal = {json.dumps(scale_min)};
+        const maxVal = {json.dumps(scale_max)};
+        const color  = d3.scaleSequential(d3.interpolateYlOrRd).domain([minVal, maxVal]);
 
         // Axes
         svg.append("g")
@@ -203,14 +231,14 @@ def save_html(sources, targets, grid, output_path: Path):
             .attr("text-anchor", "middle")
             .style("font-size", "12px")
             .style("fill", d => d.value > maxVal * 0.6 ? "#fff" : "#333")
-            .text(d => d.value);
+            .text(d => Number.isInteger(d.value) ? d.value : parseFloat(d.value.toFixed(2)));
 
         // Color bar
         const legendHeight = height;
         const legendWidth  = 15;
         const legendX      = width + 30;
 
-        const legendScale = d3.scaleLinear().domain([0, maxVal]).range([legendHeight, 0]);
+        const legendScale = d3.scaleLinear().domain([minVal, maxVal]).range([legendHeight, 0]);
         const legendAxis  = d3.axisRight(legendScale).ticks(5);
 
         const defs = svg.append("defs");
@@ -222,7 +250,7 @@ def save_html(sources, targets, grid, output_path: Path):
         d3.range(0, 1.01, 0.1).forEach(t => {{
             linearGradient.append("stop")
                 .attr("offset", `${{t * 100}}%`)
-                .attr("stop-color", color(t * maxVal));
+                .attr("stop-color", color(minVal + t * (maxVal - minVal)));
         }});
 
         svg.append("rect")
@@ -266,9 +294,9 @@ def main():
     output_path = outdir / f"heatmap_{stem}.{args.format}"
 
     if args.format == "png":
-        save_png(sources, targets, grid, output_path)
+        save_png(sources, targets, grid, output_path, vmin=args.minScale, vmax=args.maxScale)
     else:
-        save_html(sources, targets, grid, output_path)
+        save_html(sources, targets, grid, output_path, vmin=args.minScale, vmax=args.maxScale)
 
     print(f"Heatmap saved to: {output_path.resolve()}")
 
