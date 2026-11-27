@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,67,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,169,261,64.75095785440612,169,N/A,N/A,62,142,43.66197183098591,62,N/A,N/A
+2,independent,2,20,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,174,261,66.66666666666667,5,N/A,N/A,69,142,48.59154929577465,7,N/A,N/A
+3,independent,3,47,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,225,261,86.20689655172414,51,N/A,N/A,93,142,65.49295774647888,24,N/A,N/A
+4,independent,4,75,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,225,261,86.20689655172414,0,N/A,N/A,94,142,66.19718309859155,1,N/A,N/A
+5,independent,5,90,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,232,261,88.88888888888889,7,N/A,N/A,98,142,69.01408450704226,4,N/A,N/A
+6,independent,6,63,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,232,261,88.88888888888889,0,N/A,N/A,98,142,69.01408450704226,0,N/A,N/A
+7,independent,7,95,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,232,261,88.88888888888889,0,N/A,N/A,98,142,69.01408450704226,0,N/A,N/A
+8,independent,8,80,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,232,261,88.88888888888889,0,N/A,N/A,98,142,69.01408450704226,0,N/A,N/A
+9,dependent,1,69,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,233,261,89.272030651341,1,1,0.3831417624521073,100,142,70.4225352112676,2,2,1.408450704225352

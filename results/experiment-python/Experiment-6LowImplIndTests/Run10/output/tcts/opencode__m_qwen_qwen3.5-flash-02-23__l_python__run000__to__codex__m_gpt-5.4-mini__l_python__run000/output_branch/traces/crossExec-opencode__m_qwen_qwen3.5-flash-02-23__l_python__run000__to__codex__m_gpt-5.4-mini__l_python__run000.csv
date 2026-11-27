@@ -1,0 +1,17 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,63,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,211,248,85.08064516129032,211,N/A,N/A,84,160,52.5,84,N/A,N/A
+2,independent,2,35,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,215,248,86.69354838709677,4,N/A,N/A,93,160,58.125,9,N/A,N/A
+3,independent,3,31,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,215,248,86.69354838709677,0,N/A,N/A,102,160,63.75,9,N/A,N/A
+4,independent,4,41,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,216,248,87.09677419354838,1,N/A,N/A,104,160,65.0,2,N/A,N/A
+5,independent,5,65,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,3,N/A,N/A,108,160,67.5,4,N/A,N/A
+6,independent,6,40,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,N/A,N/A,108,160,67.5,0,N/A,N/A
+7,dependent,1,0,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,0,0.0,115,160,71.875,7,7,4.375
+8,dependent,2,12,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,0,0.0,115,160,71.875,0,7,4.375
+9,dependent,3,13,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,0,0.0,115,160,71.875,0,7,4.375
+10,dependent,4,2,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,0,0.0,115,160,71.875,0,7,4.375
+11,dependent,5,50,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,0,0.0,115,160,71.875,0,7,4.375
+12,dependent,6,5,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,0,0.0,115,160,71.875,0,7,4.375
+13,dependent,7,76,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,0,0.0,115,160,71.875,0,7,4.375
+14,dependent,8,7,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,0,0.0,115,160,71.875,0,7,4.375
+15,dependent,9,93,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,0,0.0,115,160,71.875,0,7,4.375
+16,dependent,10,99,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,0,0.0,117,160,73.125,2,9,5.625

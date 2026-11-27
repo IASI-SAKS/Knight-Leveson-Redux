@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,41,opencode__m_google_gemma-4-31b-it__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,196,236,83.05084745762711,196,N/A,N/A,74,140,52.857142857142854,74,N/A,N/A
+2,independent,2,61,opencode__m_google_gemma-4-31b-it__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,205,236,86.86440677966101,9,N/A,N/A,79,140,56.42857142857143,5,N/A,N/A
+3,independent,3,25,opencode__m_google_gemma-4-31b-it__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,209,236,88.55932203389831,4,N/A,N/A,84,140,60.0,5,N/A,N/A
+4,independent,4,53,opencode__m_google_gemma-4-31b-it__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,15,N/A,N/A,93,140,66.42857142857143,9,N/A,N/A
+5,independent,5,66,opencode__m_google_gemma-4-31b-it__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,N/A,N/A,93,140,66.42857142857143,0,N/A,N/A
+6,independent,6,59,opencode__m_google_gemma-4-31b-it__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,N/A,N/A,95,140,67.85714285714286,2,N/A,N/A
+7,independent,7,83,opencode__m_google_gemma-4-31b-it__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,N/A,N/A,95,140,67.85714285714286,0,N/A,N/A
+8,independent,8,95,opencode__m_google_gemma-4-31b-it__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,N/A,N/A,95,140,67.85714285714286,0,N/A,N/A
+9,independent,9,47,opencode__m_google_gemma-4-31b-it__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,N/A,N/A,96,140,68.57142857142857,1,N/A,N/A
+10,independent,10,58,opencode__m_google_gemma-4-31b-it__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,N/A,N/A,96,140,68.57142857142857,0,N/A,N/A

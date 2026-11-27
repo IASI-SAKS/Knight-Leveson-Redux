@@ -1,0 +1,3 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+13,dependent,8,51,gemini__m_gemini-3-flash-preview__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,247,280,88.21428571428571,1,1,0.35714285714285715,105,146,71.91780821917808,1,2,1.36986301369863
+15,dependent,10,96,gemini__m_gemini-3-flash-preview__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,248,280,88.57142857142857,1,1,0.35714285714285715,107,146,73.28767123287672,2,3,2.0547945205479454

@@ -1,0 +1,7 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+4,dependent,1,16,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,193,216,89.35185185185185,0,0,0.0,97,142,68.30985915492958,1,1,0.704225352112676
+5,dependent,2,30,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,193,216,89.35185185185185,0,0,0.0,98,142,69.01408450704226,1,2,1.408450704225352
+7,dependent,4,44,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,193,216,89.35185185185185,0,0,0.0,98,142,69.01408450704226,0,2,1.408450704225352
+11,dependent,8,84,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,193,216,89.35185185185185,0,0,0.0,98,142,69.01408450704226,0,1,0.704225352112676
+12,dependent,9,88,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,193,216,89.35185185185185,0,0,0.0,99,142,69.71830985915493,1,2,1.408450704225352
+13,dependent,10,98,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,199,216,92.12962962962963,6,6,2.7777777777777777,106,142,74.64788732394366,7,8,5.633802816901408

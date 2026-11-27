@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,80,claude_code__m_claude-opus-4.6__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,208,236,88.13559322033899,208,N/A,N/A,81,140,57.857142857142854,81,N/A,N/A
+2,independent,2,35,claude_code__m_claude-opus-4.6__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,218,236,92.37288135593221,10,N/A,N/A,88,140,62.857142857142854,7,N/A,N/A
+3,independent,3,66,claude_code__m_claude-opus-4.6__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,219,236,92.79661016949153,1,N/A,N/A,91,140,65.0,3,N/A,N/A
+4,independent,4,59,claude_code__m_claude-opus-4.6__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,221,236,93.64406779661017,2,N/A,N/A,93,140,66.42857142857143,2,N/A,N/A
+5,independent,5,48,claude_code__m_claude-opus-4.6__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,222,236,94.0677966101695,1,N/A,N/A,99,140,70.71428571428571,6,N/A,N/A
+6,independent,6,39,claude_code__m_claude-opus-4.6__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,222,236,94.0677966101695,0,N/A,N/A,99,140,70.71428571428571,0,N/A,N/A
+7,dependent,1,17,claude_code__m_claude-opus-4.6__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,222,236,94.0677966101695,0,0,0.0,100,140,71.42857142857143,1,1,0.7142857142857143
+8,dependent,2,24,claude_code__m_claude-opus-4.6__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,222,236,94.0677966101695,0,0,0.0,100,140,71.42857142857143,0,1,0.7142857142857143
+9,dependent,3,30,claude_code__m_claude-opus-4.6__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,222,236,94.0677966101695,0,0,0.0,101,140,72.14285714285714,1,2,1.4285714285714286

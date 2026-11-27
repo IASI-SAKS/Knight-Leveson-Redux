@@ -1,0 +1,5 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,52,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,206,261,78.9272030651341,206,N/A,N/A,78,142,54.929577464788736,78,N/A,N/A
+2,independent,2,53,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,223,261,85.44061302681992,17,N/A,N/A,90,142,63.38028169014085,12,N/A,N/A
+3,independent,3,60,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,231,261,88.50574712643679,8,N/A,N/A,97,142,68.30985915492958,7,N/A,N/A
+4,dependent,1,69,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,233,261,89.272030651341,2,2,0.7662835249042146,102,142,71.83098591549296,5,5,3.5211267605633805

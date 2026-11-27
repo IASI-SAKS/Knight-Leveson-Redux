@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+4,dependent,1,24,claude_code__m_claude-sonnet-4.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,202,217,93.08755760368663,0,0,0.0,103,144,71.52777777777777,3,3,2.0833333333333335
+5,dependent,2,29,claude_code__m_claude-sonnet-4.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,202,217,93.08755760368663,0,0,0.0,110,144,76.38888888888889,7,8,5.555555555555555
+6,dependent,3,3,claude_code__m_claude-sonnet-4.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,202,217,93.08755760368663,0,0,0.0,110,144,76.38888888888889,0,4,2.7777777777777777
+7,dependent,4,51,claude_code__m_claude-sonnet-4.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,202,217,93.08755760368663,0,0,0.0,110,144,76.38888888888889,0,4,2.7777777777777777
+8,dependent,5,64,claude_code__m_claude-sonnet-4.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,202,217,93.08755760368663,0,0,0.0,110,144,76.38888888888889,0,2,1.3888888888888888
+10,dependent,7,7,claude_code__m_claude-sonnet-4.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,1,1,0.4608294930875576,111,144,77.08333333333333,1,8,5.555555555555555
+11,dependent,8,87,claude_code__m_claude-sonnet-4.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,0,0.0,111,144,77.08333333333333,0,8,5.555555555555555
+12,dependent,9,92,claude_code__m_claude-sonnet-4.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,0,0.0,111,144,77.08333333333333,0,2,1.3888888888888888
+13,dependent,10,99,claude_code__m_claude-sonnet-4.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,0,0.0,113,144,78.47222222222223,2,9,6.25

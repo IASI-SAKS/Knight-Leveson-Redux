@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+4,dependent,1,21,codex__m_gpt-5.3-codex__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,199,280,71.07142857142857,1,1,0.35714285714285715,73,132,55.303030303030305,2,2,1.5151515151515151
+5,dependent,2,24,codex__m_gpt-5.3-codex__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,201,280,71.78571428571429,2,3,1.0714285714285714,75,132,56.81818181818182,2,4,3.0303030303030303
+6,dependent,3,26,codex__m_gpt-5.3-codex__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,201,280,71.78571428571429,0,2,0.7142857142857143,75,132,56.81818181818182,0,2,1.5151515151515151
+7,dependent,4,31,codex__m_gpt-5.3-codex__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,202,280,72.14285714285714,1,3,1.0714285714285714,76,132,57.57575757575758,1,3,2.272727272727273
+8,dependent,5,36,codex__m_gpt-5.3-codex__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,208,280,74.28571428571429,6,10,3.5714285714285716,82,132,62.121212121212125,6,10,7.575757575757576
+10,dependent,7,6,codex__m_gpt-5.3-codex__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,208,280,74.28571428571429,0,2,0.7142857142857143,82,132,62.121212121212125,0,2,1.5151515151515151
+11,dependent,8,87,codex__m_gpt-5.3-codex__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,208,280,74.28571428571429,0,10,3.5714285714285716,82,132,62.121212121212125,0,10,7.575757575757576
+12,dependent,9,89,codex__m_gpt-5.3-codex__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,208,280,74.28571428571429,0,7,2.5,82,132,62.121212121212125,0,7,5.303030303030303
+13,dependent,10,93,codex__m_gpt-5.3-codex__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,208,280,74.28571428571429,0,7,2.5,82,132,62.121212121212125,0,7,5.303030303030303

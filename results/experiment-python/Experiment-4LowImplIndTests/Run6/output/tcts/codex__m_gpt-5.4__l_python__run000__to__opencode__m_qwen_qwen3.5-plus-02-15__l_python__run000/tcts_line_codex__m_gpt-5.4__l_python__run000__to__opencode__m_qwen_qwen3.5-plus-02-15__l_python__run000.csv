@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+5,dependent,1,0,codex__m_gpt-5.4__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,229,263,87.07224334600761,7,7,2.661596958174905,93,130,71.53846153846153,7,7,5.384615384615385
+6,dependent,2,14,codex__m_gpt-5.4__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,229,263,87.07224334600761,0,7,2.661596958174905,93,130,71.53846153846153,0,7,5.384615384615385
+7,dependent,3,43,codex__m_gpt-5.4__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,229,263,87.07224334600761,0,7,2.661596958174905,93,130,71.53846153846153,0,7,5.384615384615385
+8,dependent,4,5,codex__m_gpt-5.4__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,229,263,87.07224334600761,0,7,2.661596958174905,93,130,71.53846153846153,0,7,5.384615384615385
+9,dependent,5,69,codex__m_gpt-5.4__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,230,263,87.45247148288973,1,1,0.38022813688212925,95,130,73.07692307692308,2,2,1.5384615384615385
+10,dependent,6,72,codex__m_gpt-5.4__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,230,263,87.45247148288973,0,7,2.661596958174905,95,130,73.07692307692308,0,7,5.384615384615385
+11,dependent,7,7,codex__m_gpt-5.4__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,230,263,87.45247148288973,0,7,2.661596958174905,95,130,73.07692307692308,0,7,5.384615384615385
+13,dependent,9,89,codex__m_gpt-5.4__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,230,263,87.45247148288973,0,7,2.661596958174905,97,130,74.61538461538461,0,7,5.384615384615385
+14,dependent,10,99,codex__m_gpt-5.4__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,231,263,87.83269961977186,1,8,3.041825095057034,99,130,76.15384615384616,2,9,6.923076923076923

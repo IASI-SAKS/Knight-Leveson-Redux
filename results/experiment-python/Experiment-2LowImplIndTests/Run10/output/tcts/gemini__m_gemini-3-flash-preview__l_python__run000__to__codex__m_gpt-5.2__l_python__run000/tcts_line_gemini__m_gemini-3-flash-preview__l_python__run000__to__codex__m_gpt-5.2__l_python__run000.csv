@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+3,dependent,1,19,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,278,328,84.7560975609756,8,8,2.4390243902439024,100,160,62.5,8,8,5.0
+4,dependent,2,27,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,280,328,85.36585365853658,2,9,2.7439024390243905,102,160,63.75,2,9,5.625
+5,dependent,3,28,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,282,328,85.97560975609755,2,9,2.7439024390243905,104,160,65.0,2,9,5.625
+6,dependent,4,34,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,282,328,85.97560975609755,0,6,1.829268292682927,104,160,65.0,0,6,3.75
+7,dependent,5,38,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,282,328,85.97560975609755,0,8,2.4390243902439024,105,160,65.625,1,9,5.625
+8,dependent,6,48,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,282,328,85.97560975609755,0,8,2.4390243902439024,105,160,65.625,0,8,5.0
+9,dependent,7,6,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,282,328,85.97560975609755,0,9,2.7439024390243905,105,160,65.625,0,9,5.625
+10,dependent,8,88,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,282,328,85.97560975609755,0,8,2.4390243902439024,106,160,66.25,1,9,5.625
+11,dependent,9,96,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,283,328,86.28048780487805,1,11,3.3536585365853657,108,160,67.5,2,13,8.125
+12,dependent,10,98,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,283,328,86.28048780487805,0,9,2.7439024390243905,108,160,67.5,0,11,6.875

@@ -1,0 +1,17 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,80,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,225,285,78.94736842105263,225,N/A,N/A,87,156,55.76923076923077,87,N/A,N/A
+2,independent,2,40,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,229,285,80.35087719298245,4,N/A,N/A,92,156,58.97435897435897,5,N/A,N/A
+3,independent,3,78,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,238,285,83.50877192982456,9,N/A,N/A,99,156,63.46153846153846,7,N/A,N/A
+4,independent,4,58,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,240,285,84.21052631578948,2,N/A,N/A,101,156,64.74358974358974,2,N/A,N/A
+5,independent,5,61,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,240,285,84.21052631578948,0,N/A,N/A,101,156,64.74358974358974,0,N/A,N/A
+6,independent,6,18,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,240,285,84.21052631578948,0,N/A,N/A,101,156,64.74358974358974,0,N/A,N/A
+7,independent,7,54,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,240,285,84.21052631578948,0,N/A,N/A,101,156,64.74358974358974,0,N/A,N/A
+8,independent,8,53,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,241,285,84.56140350877193,1,N/A,N/A,102,156,65.38461538461539,1,N/A,N/A
+9,dependent,1,37,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,246,285,86.3157894736842,5,5,1.7543859649122806,107,156,68.58974358974359,5,5,3.2051282051282053
+10,dependent,2,3,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,247,285,86.66666666666667,1,6,2.1052631578947367,108,156,69.23076923076923,1,6,3.8461538461538463
+11,dependent,3,44,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,247,285,86.66666666666667,0,6,2.1052631578947367,108,156,69.23076923076923,0,6,3.8461538461538463
+12,dependent,4,4,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,247,285,86.66666666666667,0,5,1.7543859649122806,108,156,69.23076923076923,0,5,3.2051282051282053
+13,dependent,5,51,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,247,285,86.66666666666667,0,6,2.1052631578947367,108,156,69.23076923076923,0,6,3.8461538461538463
+14,dependent,6,69,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,248,285,87.01754385964912,1,6,2.1052631578947367,110,156,70.51282051282051,2,7,4.487179487179487
+15,dependent,7,91,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,249,285,87.36842105263158,1,6,2.1052631578947367,111,156,71.15384615384616,1,6,3.8461538461538463
+16,dependent,8,98,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,249,285,87.36842105263158,0,6,2.1052631578947367,111,156,71.15384615384616,0,7,4.487179487179487

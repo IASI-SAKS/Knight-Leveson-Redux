@@ -1,0 +1,8 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+4,dependent,1,0,claude_code__m_claude-sonnet-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,261,280,93.21428571428571,7,7,2.5,100,132,75.75757575757575,8,8,6.0606060606060606
+5,dependent,2,12,claude_code__m_claude-sonnet-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,261,280,93.21428571428571,0,6,2.142857142857143,100,132,75.75757575757575,0,6,4.545454545454546
+6,dependent,3,15,claude_code__m_claude-sonnet-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,262,280,93.57142857142857,1,1,0.35714285714285715,103,132,78.03030303030303,3,4,3.0303030303030303
+8,dependent,5,50,claude_code__m_claude-sonnet-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,262,280,93.57142857142857,0,6,2.142857142857143,103,132,78.03030303030303,0,6,4.545454545454546
+9,dependent,6,5,claude_code__m_claude-sonnet-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,262,280,93.57142857142857,0,6,2.142857142857143,103,132,78.03030303030303,0,6,4.545454545454546
+10,dependent,7,62,claude_code__m_claude-sonnet-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,262,280,93.57142857142857,0,7,2.5,103,132,78.03030303030303,0,8,6.0606060606060606
+12,dependent,9,89,claude_code__m_claude-sonnet-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,262,280,93.57142857142857,0,6,2.142857142857143,103,132,78.03030303030303,0,6,4.545454545454546

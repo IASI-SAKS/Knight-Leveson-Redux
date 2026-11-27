@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,18,cursor__m_composer-2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,203,236,86.01694915254237,203,N/A,N/A,81,140,57.857142857142854,81,N/A,N/A
+2,independent,2,25,cursor__m_composer-2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,209,236,88.55932203389831,6,N/A,N/A,87,140,62.142857142857146,6,N/A,N/A
+3,independent,3,40,cursor__m_composer-2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,210,236,88.98305084745763,1,N/A,N/A,89,140,63.57142857142857,2,N/A,N/A
+4,independent,4,42,cursor__m_composer-2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,212,236,89.83050847457628,2,N/A,N/A,92,140,65.71428571428571,3,N/A,N/A
+5,independent,5,83,cursor__m_composer-2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,212,236,89.83050847457628,0,N/A,N/A,92,140,65.71428571428571,0,N/A,N/A
+6,independent,6,59,cursor__m_composer-2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,12,N/A,N/A,97,140,69.28571428571429,5,N/A,N/A
+7,independent,7,90,cursor__m_composer-2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,N/A,N/A,97,140,69.28571428571429,0,N/A,N/A
+8,independent,8,47,cursor__m_composer-2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,N/A,N/A,97,140,69.28571428571429,0,N/A,N/A
+9,independent,9,22,cursor__m_composer-2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,N/A,N/A,97,140,69.28571428571429,0,N/A,N/A
+10,independent,10,71,cursor__m_composer-2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,N/A,N/A,102,140,72.85714285714286,5,N/A,N/A

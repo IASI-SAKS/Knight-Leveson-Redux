@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+11,dependent,1,14,claude_code__m_claude-opus-4.5__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,0,0.0,108,140,77.14285714285714,12,12,8.571428571428571
+12,dependent,2,36,claude_code__m_claude-opus-4.5__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,0,0.0,109,140,77.85714285714286,1,13,9.285714285714286
+13,dependent,3,4,claude_code__m_claude-opus-4.5__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,0,0.0,109,140,77.85714285714286,0,6,4.285714285714286
+14,dependent,4,50,claude_code__m_claude-opus-4.5__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,0,0.0,109,140,77.85714285714286,0,12,8.571428571428571
+15,dependent,5,68,claude_code__m_claude-opus-4.5__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,0,0.0,109,140,77.85714285714286,0,6,4.285714285714286
+16,dependent,6,72,claude_code__m_claude-opus-4.5__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,0,0.0,109,140,77.85714285714286,0,12,8.571428571428571
+17,dependent,7,76,claude_code__m_claude-opus-4.5__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,0,0.0,109,140,77.85714285714286,0,12,8.571428571428571
+18,dependent,8,81,claude_code__m_claude-opus-4.5__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,0,0.0,109,140,77.85714285714286,0,5,3.5714285714285716
+19,dependent,9,88,claude_code__m_claude-opus-4.5__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,0,0.0,110,140,78.57142857142857,1,6,4.285714285714286
+20,dependent,10,98,claude_code__m_claude-opus-4.5__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,0,0.0,113,140,80.71428571428571,3,8,5.714285714285714

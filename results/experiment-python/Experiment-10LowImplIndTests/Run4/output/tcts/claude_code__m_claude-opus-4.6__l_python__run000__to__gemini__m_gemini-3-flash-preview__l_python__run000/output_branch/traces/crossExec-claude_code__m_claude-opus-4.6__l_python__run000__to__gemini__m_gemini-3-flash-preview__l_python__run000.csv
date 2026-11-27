@@ -1,0 +1,15 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,23,claude_code__m_claude-opus-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,181,217,83.41013824884793,181,N/A,N/A,83,144,57.638888888888886,83,N/A,N/A
+2,independent,2,58,claude_code__m_claude-opus-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,197,217,90.78341013824885,16,N/A,N/A,92,144,63.888888888888886,9,N/A,N/A
+3,independent,3,53,claude_code__m_claude-opus-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,202,217,93.08755760368663,5,N/A,N/A,98,144,68.05555555555556,6,N/A,N/A
+4,independent,4,57,claude_code__m_claude-opus-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,1,N/A,N/A,104,144,72.22222222222223,6,N/A,N/A
+5,independent,5,60,claude_code__m_claude-opus-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,N/A,N/A,104,144,72.22222222222223,0,N/A,N/A
+6,independent,6,22,claude_code__m_claude-opus-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,N/A,N/A,104,144,72.22222222222223,0,N/A,N/A
+7,independent,7,81,claude_code__m_claude-opus-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,N/A,N/A,104,144,72.22222222222223,0,N/A,N/A
+8,independent,8,95,claude_code__m_claude-opus-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,N/A,N/A,104,144,72.22222222222223,0,N/A,N/A
+9,independent,9,18,claude_code__m_claude-opus-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,N/A,N/A,104,144,72.22222222222223,0,N/A,N/A
+10,independent,10,86,claude_code__m_claude-opus-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,N/A,N/A,104,144,72.22222222222223,0,N/A,N/A
+11,dependent,1,30,claude_code__m_claude-opus-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,0,0.0,106,144,73.61111111111111,2,2,1.3888888888888888
+12,dependent,2,33,claude_code__m_claude-opus-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,0,0.0,106,144,73.61111111111111,0,1,0.6944444444444444
+13,dependent,3,88,claude_code__m_claude-opus-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,0,0.0,107,144,74.30555555555556,1,1,0.6944444444444444
+14,dependent,4,91,claude_code__m_claude-opus-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,0,0.0,107,144,74.30555555555556,0,1,0.6944444444444444

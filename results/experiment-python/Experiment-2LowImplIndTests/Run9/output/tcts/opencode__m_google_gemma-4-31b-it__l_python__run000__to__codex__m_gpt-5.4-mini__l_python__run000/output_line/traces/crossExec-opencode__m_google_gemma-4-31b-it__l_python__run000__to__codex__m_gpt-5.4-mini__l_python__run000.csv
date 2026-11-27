@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,52,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,203,248,81.85483870967742,203,N/A,N/A,82,160,51.25,82,N/A,N/A
+2,independent,2,65,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,218,248,87.90322580645162,15,N/A,N/A,98,160,61.25,16,N/A,N/A
+3,dependent,1,1,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,1,1,0.4032258064516129,104,160,65.0,6,6,3.75
+4,dependent,2,21,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,1,0.4032258064516129,106,160,66.25,2,8,5.0
+5,dependent,3,28,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,1,0.4032258064516129,106,160,66.25,0,8,5.0
+6,dependent,4,48,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,1,0.4032258064516129,106,160,66.25,0,6,3.75
+7,dependent,5,70,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,1,0.4032258064516129,106,160,66.25,0,8,5.0
+8,dependent,6,88,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,1,0.4032258064516129,107,160,66.875,1,8,5.0
+9,dependent,7,91,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,1,0.4032258064516129,107,160,66.875,0,8,5.0
+10,dependent,8,94,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,1,0.4032258064516129,107,160,66.875,0,8,5.0

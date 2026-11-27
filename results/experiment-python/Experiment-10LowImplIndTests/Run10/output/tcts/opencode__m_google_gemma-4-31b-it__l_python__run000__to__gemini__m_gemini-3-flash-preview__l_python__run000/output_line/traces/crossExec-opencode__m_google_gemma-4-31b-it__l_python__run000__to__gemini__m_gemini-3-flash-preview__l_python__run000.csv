@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,75,opencode__m_google_gemma-4-31b-it__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,187,217,86.17511520737327,187,N/A,N/A,83,144,57.638888888888886,83,N/A,N/A
+2,independent,2,15,opencode__m_google_gemma-4-31b-it__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,193,217,88.94009216589862,6,N/A,N/A,99,144,68.75,16,N/A,N/A
+3,independent,3,63,opencode__m_google_gemma-4-31b-it__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,201,217,92.62672811059907,8,N/A,N/A,102,144,70.83333333333333,3,N/A,N/A
+4,independent,4,33,opencode__m_google_gemma-4-31b-it__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,201,217,92.62672811059907,0,N/A,N/A,105,144,72.91666666666667,3,N/A,N/A
+5,independent,5,42,opencode__m_google_gemma-4-31b-it__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,2,N/A,N/A,109,144,75.69444444444444,4,N/A,N/A
+6,independent,6,8,opencode__m_google_gemma-4-31b-it__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,N/A,N/A,109,144,75.69444444444444,0,N/A,N/A
+7,independent,7,25,opencode__m_google_gemma-4-31b-it__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,N/A,N/A,109,144,75.69444444444444,0,N/A,N/A
+8,independent,8,77,opencode__m_google_gemma-4-31b-it__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,N/A,N/A,109,144,75.69444444444444,0,N/A,N/A
+9,independent,9,59,opencode__m_google_gemma-4-31b-it__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,N/A,N/A,109,144,75.69444444444444,0,N/A,N/A
+10,independent,10,54,opencode__m_google_gemma-4-31b-it__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,N/A,N/A,109,144,75.69444444444444,0,N/A,N/A

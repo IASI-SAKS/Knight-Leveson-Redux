@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+5,dependent,1,16,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.4__l_python__run000,209,231,90.47619047619048,4,4,1.7316017316017316,89,122,72.95081967213115,3,3,2.459016393442623
+6,dependent,2,28,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.4__l_python__run000,210,231,90.9090909090909,1,1,0.4329004329004329,90,122,73.77049180327869,1,1,0.819672131147541
+7,dependent,3,2,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.4__l_python__run000,217,231,93.93939393939394,7,9,3.896103896103896,97,122,79.50819672131148,7,9,7.377049180327869
+8,dependent,4,33,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.4__l_python__run000,217,231,93.93939393939394,0,4,1.7316017316017316,97,122,79.50819672131148,0,3,2.459016393442623
+9,dependent,5,44,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.4__l_python__run000,217,231,93.93939393939394,0,3,1.2987012987012987,97,122,79.50819672131148,0,3,2.459016393442623
+10,dependent,6,6,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.4__l_python__run000,217,231,93.93939393939394,0,1,0.4329004329004329,97,122,79.50819672131148,0,1,0.819672131147541
+11,dependent,7,73,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.4__l_python__run000,217,231,93.93939393939394,0,1,0.4329004329004329,97,122,79.50819672131148,0,1,0.819672131147541
+13,dependent,9,87,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.4__l_python__run000,217,231,93.93939393939394,0,8,3.463203463203463,97,122,79.50819672131148,0,8,6.557377049180328
+14,dependent,10,88,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.4__l_python__run000,217,231,93.93939393939394,0,1,0.4329004329004329,98,122,80.32786885245902,1,2,1.639344262295082

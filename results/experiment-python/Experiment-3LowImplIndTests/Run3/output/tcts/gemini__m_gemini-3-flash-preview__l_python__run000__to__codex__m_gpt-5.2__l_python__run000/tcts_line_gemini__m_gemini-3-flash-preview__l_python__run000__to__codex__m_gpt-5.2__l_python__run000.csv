@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+4,dependent,1,17,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,290,328,88.41463414634147,2,2,0.6097560975609756,106,160,66.25,3,3,1.875
+5,dependent,2,33,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,290,328,88.41463414634147,0,2,0.6097560975609756,106,160,66.25,0,3,1.875
+6,dependent,3,44,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,292,328,89.02439024390245,2,4,1.2195121951219512,108,160,67.5,2,5,3.125
+7,dependent,4,45,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,293,328,89.32926829268293,1,1,0.3048780487804878,109,160,68.125,1,1,0.625
+8,dependent,5,48,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,293,328,89.32926829268293,0,2,0.6097560975609756,109,160,68.125,0,2,1.25
+9,dependent,6,67,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,293,328,89.32926829268293,0,1,0.3048780487804878,109,160,68.125,0,1,0.625
+10,dependent,7,6,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,295,328,89.9390243902439,2,3,0.9146341463414634,111,160,69.375,2,3,1.875
+11,dependent,8,79,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,295,328,89.9390243902439,0,1,0.3048780487804878,111,160,69.375,0,1,0.625
+12,dependent,9,81,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,295,328,89.9390243902439,0,2,0.6097560975609756,111,160,69.375,0,2,1.25
+13,dependent,10,96,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,296,328,90.2439024390244,1,2,0.6097560975609756,114,160,71.25,3,5,3.125

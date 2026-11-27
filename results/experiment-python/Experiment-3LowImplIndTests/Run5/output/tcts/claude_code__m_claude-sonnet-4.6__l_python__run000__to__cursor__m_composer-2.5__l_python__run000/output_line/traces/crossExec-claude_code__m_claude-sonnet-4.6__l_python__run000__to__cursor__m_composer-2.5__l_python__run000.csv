@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,64,claude_code__m_claude-sonnet-4.6__l_python__run000,cursor__m_composer-2.5__l_python__run000,184,285,64.56140350877193,184,N/A,N/A,66,156,42.30769230769231,66,N/A,N/A
+2,independent,2,65,claude_code__m_claude-sonnet-4.6__l_python__run000,cursor__m_composer-2.5__l_python__run000,236,285,82.80701754385964,52,N/A,N/A,99,156,63.46153846153846,33,N/A,N/A
+3,independent,3,21,claude_code__m_claude-sonnet-4.6__l_python__run000,cursor__m_composer-2.5__l_python__run000,238,285,83.50877192982456,2,N/A,N/A,101,156,64.74358974358974,2,N/A,N/A
+4,dependent,1,31,claude_code__m_claude-sonnet-4.6__l_python__run000,cursor__m_composer-2.5__l_python__run000,240,285,84.21052631578948,2,2,0.7017543859649122,104,156,66.66666666666667,3,3,1.9230769230769231
+5,dependent,2,45,claude_code__m_claude-sonnet-4.6__l_python__run000,cursor__m_composer-2.5__l_python__run000,241,285,84.56140350877193,1,1,0.3508771929824561,105,156,67.3076923076923,1,1,0.6410256410256411
+6,dependent,3,51,claude_code__m_claude-sonnet-4.6__l_python__run000,cursor__m_composer-2.5__l_python__run000,241,285,84.56140350877193,0,1,0.3508771929824561,105,156,67.3076923076923,0,2,1.2820512820512822
+7,dependent,4,55,claude_code__m_claude-sonnet-4.6__l_python__run000,cursor__m_composer-2.5__l_python__run000,241,285,84.56140350877193,0,1,0.3508771929824561,105,156,67.3076923076923,0,1,0.6410256410256411
+8,dependent,5,56,claude_code__m_claude-sonnet-4.6__l_python__run000,cursor__m_composer-2.5__l_python__run000,241,285,84.56140350877193,0,1,0.3508771929824561,105,156,67.3076923076923,0,2,1.2820512820512822
+9,dependent,6,68,claude_code__m_claude-sonnet-4.6__l_python__run000,cursor__m_composer-2.5__l_python__run000,241,285,84.56140350877193,0,1,0.3508771929824561,105,156,67.3076923076923,0,1,0.6410256410256411

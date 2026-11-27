@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+7,dependent,1,11,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,109,146,74.65753424657534,7,7,4.794520547945205
+8,dependent,2,12,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,109,146,74.65753424657534,0,7,4.794520547945205
+9,dependent,3,43,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,109,146,74.65753424657534,0,7,4.794520547945205
+10,dependent,4,72,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,109,146,74.65753424657534,0,7,4.794520547945205
+11,dependent,5,74,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,109,146,74.65753424657534,0,7,4.794520547945205
+12,dependent,6,76,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,109,146,74.65753424657534,0,7,4.794520547945205
+13,dependent,7,7,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,109,146,74.65753424657534,0,7,4.794520547945205
+14,dependent,8,87,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,110,146,75.34246575342466,1,8,5.47945205479452
+15,dependent,9,89,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,110,146,75.34246575342466,0,7,4.794520547945205
+16,dependent,10,93,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,110,146,75.34246575342466,0,7,4.794520547945205

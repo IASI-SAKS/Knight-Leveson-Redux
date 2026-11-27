@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+4,dependent,1,0,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,246,280,87.85714285714286,7,7,2.5,106,146,72.6027397260274,8,8,5.47945205479452
+5,dependent,2,11,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,246,280,87.85714285714286,0,6,2.142857142857143,106,146,72.6027397260274,0,6,4.109589041095891
+6,dependent,3,12,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,246,280,87.85714285714286,0,6,2.142857142857143,106,146,72.6027397260274,0,6,4.109589041095891
+7,dependent,4,29,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,246,280,87.85714285714286,0,7,2.5,106,146,72.6027397260274,0,8,5.47945205479452
+8,dependent,5,2,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,246,280,87.85714285714286,0,7,2.5,106,146,72.6027397260274,0,8,5.47945205479452
+9,dependent,6,36,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,246,280,87.85714285714286,0,7,2.5,106,146,72.6027397260274,0,8,5.47945205479452
+10,dependent,7,50,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,246,280,87.85714285714286,0,6,2.142857142857143,106,146,72.6027397260274,0,6,4.109589041095891
+11,dependent,8,5,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,246,280,87.85714285714286,0,6,2.142857142857143,106,146,72.6027397260274,0,6,4.109589041095891
+12,dependent,9,87,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,246,280,87.85714285714286,0,7,2.5,106,146,72.6027397260274,0,8,5.47945205479452

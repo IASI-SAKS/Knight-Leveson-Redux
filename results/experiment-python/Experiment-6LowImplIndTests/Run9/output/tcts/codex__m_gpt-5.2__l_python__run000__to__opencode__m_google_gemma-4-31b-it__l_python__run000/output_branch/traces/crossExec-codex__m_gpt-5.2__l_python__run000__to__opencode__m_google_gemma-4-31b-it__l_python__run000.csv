@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,45,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,146,216,67.5925925925926,146,N/A,N/A,69,142,48.59154929577465,69,N/A,N/A
+2,independent,2,81,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,148,216,68.51851851851852,2,N/A,N/A,74,142,52.11267605633803,5,N/A,N/A
+3,independent,3,52,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,187,216,86.57407407407408,39,N/A,N/A,92,142,64.78873239436619,18,N/A,N/A
+4,independent,4,55,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,187,216,86.57407407407408,0,N/A,N/A,92,142,64.78873239436619,0,N/A,N/A
+5,independent,5,18,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,187,216,86.57407407407408,0,N/A,N/A,94,142,66.19718309859155,2,N/A,N/A
+6,independent,6,65,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,200,216,92.5925925925926,13,N/A,N/A,101,142,71.12676056338029,7,N/A,N/A
+7,dependent,1,30,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,200,216,92.5925925925926,0,0,0.0,102,142,71.83098591549296,1,1,0.704225352112676
+8,dependent,2,62,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,200,216,92.5925925925926,0,0,0.0,108,142,76.05633802816901,6,7,4.929577464788732
+9,dependent,3,88,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,200,216,92.5925925925926,0,0,0.0,109,142,76.7605633802817,1,1,0.704225352112676
+10,dependent,4,99,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,200,216,92.5925925925926,0,0,0.0,111,142,78.16901408450704,2,8,5.633802816901408

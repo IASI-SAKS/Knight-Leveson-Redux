@@ -1,0 +1,13 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,66,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.2__l_python__run000,259,328,78.96341463414635,259,N/A,N/A,83,160,51.875,83,N/A,N/A
+2,independent,2,31,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.2__l_python__run000,270,328,82.3170731707317,11,N/A,N/A,95,160,59.375,12,N/A,N/A
+3,dependent,1,27,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.2__l_python__run000,270,328,82.3170731707317,0,0,0.0,95,160,59.375,0,0,0.0
+4,dependent,2,28,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.2__l_python__run000,274,328,83.53658536585365,4,4,1.2195121951219512,100,160,62.5,5,5,3.125
+5,dependent,3,37,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.2__l_python__run000,274,328,83.53658536585365,0,2,0.6097560975609756,100,160,62.5,0,3,1.875
+6,dependent,4,38,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.2__l_python__run000,274,328,83.53658536585365,0,3,0.9146341463414634,101,160,63.125,1,4,2.5
+7,dependent,5,50,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.2__l_python__run000,280,328,85.36585365853658,6,8,2.4390243902439024,107,160,66.875,6,8,5.0
+8,dependent,6,68,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.2__l_python__run000,280,328,85.36585365853658,0,2,0.6097560975609756,107,160,66.875,0,3,1.875
+9,dependent,7,71,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.2__l_python__run000,280,328,85.36585365853658,0,2,0.6097560975609756,107,160,66.875,0,2,1.25
+10,dependent,8,73,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.2__l_python__run000,280,328,85.36585365853658,0,0,0.0,107,160,66.875,0,0,0.0
+11,dependent,9,98,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.2__l_python__run000,281,328,85.67073170731707,1,2,0.6097560975609756,109,160,68.125,2,4,2.5
+12,dependent,10,9,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.2__l_python__run000,281,328,85.67073170731707,0,2,0.6097560975609756,109,160,68.125,0,2,1.25

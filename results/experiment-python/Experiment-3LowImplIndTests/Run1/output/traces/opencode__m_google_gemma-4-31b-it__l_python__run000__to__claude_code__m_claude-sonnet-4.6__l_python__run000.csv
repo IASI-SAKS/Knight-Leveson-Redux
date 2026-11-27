@@ -1,0 +1,14 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,94,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,184,294,62.585034013605444,184,N/A,N/A,63,140,45.0,63,N/A,N/A
+2,independent,2,81,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,189,294,64.28571428571429,5,N/A,N/A,69,140,49.285714285714285,6,N/A,N/A
+3,independent,3,34,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,189,294,64.28571428571429,0,N/A,N/A,70,140,50.0,1,N/A,N/A
+4,dependent,1,15,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,190,294,64.62585034013605,1,1,0.3401360544217687,73,140,52.142857142857146,3,3,2.142857142857143
+5,dependent,2,1,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,190,294,64.62585034013605,0,0,0.0,73,140,52.142857142857146,0,0,0.0
+6,dependent,3,20,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,191,294,64.96598639455782,1,1,0.3401360544217687,74,140,52.857142857142854,1,1,0.7142857142857143
+7,dependent,4,24,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,193,294,65.64625850340136,2,3,1.0204081632653061,77,140,55.0,3,4,2.857142857142857
+8,dependent,5,38,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,193,294,65.64625850340136,0,0,0.0,77,140,55.0,0,1,0.7142857142857143
+9,dependent,6,45,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,193,294,65.64625850340136,0,0,0.0,77,140,55.0,0,0,0.0
+10,dependent,7,46,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,193,294,65.64625850340136,0,0,0.0,77,140,55.0,0,0,0.0
+11,dependent,8,79,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,193,294,65.64625850340136,0,0,0.0,77,140,55.0,0,0,0.0
+12,dependent,9,82,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,193,294,65.64625850340136,0,1,0.3401360544217687,77,140,55.0,0,1,0.7142857142857143
+13,dependent,10,97,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,193,294,65.64625850340136,0,2,0.6802721088435374,77,140,55.0,0,3,2.142857142857143

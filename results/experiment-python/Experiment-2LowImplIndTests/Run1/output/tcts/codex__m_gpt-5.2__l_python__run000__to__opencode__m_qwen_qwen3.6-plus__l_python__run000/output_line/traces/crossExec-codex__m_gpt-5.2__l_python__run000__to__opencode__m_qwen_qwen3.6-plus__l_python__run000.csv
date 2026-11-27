@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,21,codex__m_gpt-5.2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,169,236,71.61016949152543,169,N/A,N/A,65,140,46.42857142857143,65,N/A,N/A
+2,independent,2,58,codex__m_gpt-5.2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,219,236,92.79661016949153,50,N/A,N/A,93,140,66.42857142857143,28,N/A,N/A
+3,dependent,1,0,codex__m_gpt-5.2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,221,236,93.64406779661017,2,2,0.847457627118644,103,140,73.57142857142857,10,10,7.142857142857143
+4,dependent,2,15,codex__m_gpt-5.2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,3,3,1.271186440677966,109,140,77.85714285714286,6,7,5.0
+5,dependent,3,48,codex__m_gpt-5.2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,2,0.847457627118644,109,140,77.85714285714286,0,1,0.7142857142857143
+6,dependent,4,67,codex__m_gpt-5.2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,3,1.271186440677966,109,140,77.85714285714286,0,2,1.4285714285714286
+7,dependent,5,72,codex__m_gpt-5.2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,1,0.423728813559322,109,140,77.85714285714286,0,7,5.0
+8,dependent,6,87,codex__m_gpt-5.2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,2,0.847457627118644,109,140,77.85714285714286,0,10,7.142857142857143
+9,dependent,7,9,codex__m_gpt-5.2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,224,236,94.91525423728814,0,3,1.271186440677966,109,140,77.85714285714286,0,2,1.4285714285714286

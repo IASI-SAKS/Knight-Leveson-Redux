@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+5,dependent,2,27,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,239,285,83.85964912280701,1,1,0.3508771929824561,103,156,66.02564102564102,2,2,1.2820512820512822
+6,dependent,3,28,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,239,285,83.85964912280701,0,1,0.3508771929824561,103,156,66.02564102564102,0,2,1.2820512820512822
+7,dependent,4,30,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,240,285,84.21052631578948,1,1,0.3508771929824561,104,156,66.66666666666667,1,2,1.2820512820512822
+8,dependent,5,3,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,240,285,84.21052631578948,0,1,0.3508771929824561,104,156,66.66666666666667,0,2,1.2820512820512822
+9,dependent,6,44,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,240,285,84.21052631578948,0,1,0.3508771929824561,104,156,66.66666666666667,0,2,1.2820512820512822
+10,dependent,7,46,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,240,285,84.21052631578948,0,1,0.3508771929824561,104,156,66.66666666666667,0,1,0.6410256410256411
+11,dependent,8,74,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,246,285,86.3157894736842,6,6,2.1052631578947367,110,156,70.51282051282051,6,6,3.8461538461538463
+12,dependent,9,85,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,246,285,86.3157894736842,0,1,0.3508771929824561,110,156,70.51282051282051,0,1,0.6410256410256411
+13,dependent,10,98,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,247,285,86.66666666666667,1,2,0.7017543859649122,112,156,71.7948717948718,2,4,2.5641025641025643

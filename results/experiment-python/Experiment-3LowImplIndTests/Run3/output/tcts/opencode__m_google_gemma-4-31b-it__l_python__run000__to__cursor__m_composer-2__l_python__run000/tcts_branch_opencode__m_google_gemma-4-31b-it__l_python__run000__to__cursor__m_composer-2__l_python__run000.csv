@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+4,dependent,1,21,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,0,0.0,98,146,67.12328767123287,3,3,2.0547945205479454
+5,dependent,2,27,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,2,2,0.704225352112676,100,146,68.4931506849315,2,3,2.0547945205479454
+6,dependent,3,3,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,2,0.704225352112676,101,146,69.17808219178082,1,6,4.109589041095891
+7,dependent,4,44,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,101,146,69.17808219178082,0,4,2.73972602739726
+8,dependent,5,4,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,101,146,69.17808219178082,0,3,2.0547945205479454
+9,dependent,6,55,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,101,146,69.17808219178082,0,1,0.684931506849315
+10,dependent,7,57,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,101,146,69.17808219178082,0,1,0.684931506849315
+11,dependent,8,6,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,2,0.704225352112676,101,146,69.17808219178082,0,3,2.0547945205479454
+12,dependent,9,82,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,2,0.704225352112676,101,146,69.17808219178082,0,2,1.36986301369863

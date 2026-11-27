@@ -1,0 +1,5 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,82,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,210,284,73.94366197183099,210,N/A,N/A,68,146,46.57534246575342,68,N/A,N/A
+2,independent,2,95,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,254,284,89.43661971830986,44,N/A,N/A,90,146,61.64383561643836,22,N/A,N/A
+3,independent,3,48,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,255,284,89.78873239436619,1,N/A,N/A,93,146,63.6986301369863,3,N/A,N/A
+4,independent,4,42,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,5,N/A,N/A,100,146,68.4931506849315,7,N/A,N/A

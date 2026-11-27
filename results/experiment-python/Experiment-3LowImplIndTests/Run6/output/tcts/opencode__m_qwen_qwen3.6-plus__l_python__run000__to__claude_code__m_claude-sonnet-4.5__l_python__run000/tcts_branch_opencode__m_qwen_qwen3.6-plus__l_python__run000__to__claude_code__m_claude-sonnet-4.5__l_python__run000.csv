@@ -1,0 +1,2 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+4,dependent,1,69,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,267,297,89.8989898989899,3,3,1.0101010101010102,114,162,70.37037037037037,5,5,3.0864197530864197

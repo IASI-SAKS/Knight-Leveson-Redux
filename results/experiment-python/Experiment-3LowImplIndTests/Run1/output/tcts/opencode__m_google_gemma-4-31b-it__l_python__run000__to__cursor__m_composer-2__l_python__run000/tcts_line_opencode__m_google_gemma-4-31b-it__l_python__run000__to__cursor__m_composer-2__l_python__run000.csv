@@ -1,0 +1,5 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+6,dependent,3,20,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,213,284,75.0,2,2,0.704225352112676,79,146,54.10958904109589,2,2,1.36986301369863
+7,dependent,4,24,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,213,284,75.0,0,2,0.704225352112676,81,146,55.47945205479452,2,4,2.73972602739726
+12,dependent,9,82,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,213,284,75.0,0,2,0.704225352112676,81,146,55.47945205479452,0,2,1.36986301369863
+13,dependent,10,97,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,213,284,75.0,0,2,0.704225352112676,81,146,55.47945205479452,0,3,2.0547945205479454

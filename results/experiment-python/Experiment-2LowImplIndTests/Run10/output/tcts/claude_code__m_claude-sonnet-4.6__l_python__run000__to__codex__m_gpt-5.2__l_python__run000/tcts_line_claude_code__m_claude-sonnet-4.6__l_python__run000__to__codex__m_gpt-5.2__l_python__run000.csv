@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+3,dependent,1,15,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,279,328,85.0609756097561,9,9,2.7439024390243905,103,160,64.375,11,11,6.875
+4,dependent,2,16,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,279,328,85.0609756097561,0,7,2.1341463414634148,103,160,64.375,0,7,4.375
+5,dependent,3,17,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,281,328,85.67073170731707,2,8,2.4390243902439024,105,160,65.625,2,8,5.0
+6,dependent,4,20,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,283,328,86.28048780487805,2,9,2.7439024390243905,107,160,66.875,2,9,5.625
+7,dependent,5,27,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,283,328,86.28048780487805,0,9,2.7439024390243905,107,160,66.875,0,9,5.625
+8,dependent,6,55,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,283,328,86.28048780487805,0,8,2.4390243902439024,107,160,66.875,0,8,5.0
+9,dependent,7,85,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,283,328,86.28048780487805,0,9,2.7439024390243905,107,160,66.875,0,9,5.625
+10,dependent,8,91,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,283,328,86.28048780487805,0,8,2.4390243902439024,107,160,66.875,0,8,5.0
+11,dependent,9,97,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,283,328,86.28048780487805,0,9,2.7439024390243905,107,160,66.875,0,9,5.625
+12,dependent,10,98,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,283,328,86.28048780487805,0,9,2.7439024390243905,107,160,66.875,0,11,6.875

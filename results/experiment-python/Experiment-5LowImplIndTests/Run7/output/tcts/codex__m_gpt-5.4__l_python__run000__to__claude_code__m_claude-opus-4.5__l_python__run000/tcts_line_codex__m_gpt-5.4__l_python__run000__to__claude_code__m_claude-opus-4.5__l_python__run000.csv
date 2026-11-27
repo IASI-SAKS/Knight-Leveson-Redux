@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+6,dependent,1,0,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,253,280,90.35714285714286,10,10,3.5714285714285716,109,146,74.65753424657534,10,10,6.8493150684931505
+7,dependent,2,12,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,253,280,90.35714285714286,0,9,3.2142857142857144,109,146,74.65753424657534,0,9,6.164383561643835
+8,dependent,3,13,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,253,280,90.35714285714286,0,8,2.857142857142857,109,146,74.65753424657534,0,8,5.47945205479452
+9,dependent,4,28,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,253,280,90.35714285714286,0,1,0.35714285714285715,110,146,75.34246575342466,1,2,1.36986301369863
+10,dependent,5,29,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,253,280,90.35714285714286,0,10,3.5714285714285716,110,146,75.34246575342466,0,10,6.8493150684931505
+11,dependent,6,50,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,253,280,90.35714285714286,0,9,3.2142857142857144,110,146,75.34246575342466,0,9,6.164383561643835
+12,dependent,7,69,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,254,280,90.71428571428571,1,1,0.35714285714285715,113,146,77.3972602739726,3,3,2.0547945205479454
+13,dependent,8,7,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,254,280,90.71428571428571,0,7,2.5,113,146,77.3972602739726,0,7,4.794520547945205
+15,dependent,10,99,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,255,280,91.07142857142857,1,8,2.857142857142857,116,146,79.45205479452055,2,9,6.164383561643835

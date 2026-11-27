@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+11,dependent,1,13,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,110,146,75.34246575342466,7,7,4.794520547945205
+12,dependent,2,14,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,110,146,75.34246575342466,0,6,4.109589041095891
+13,dependent,3,29,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,110,146,75.34246575342466,0,7,4.794520547945205
+14,dependent,4,36,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,110,146,75.34246575342466,0,7,4.794520547945205
+15,dependent,5,49,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,110,146,75.34246575342466,0,6,4.109589041095891
+16,dependent,6,50,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,110,146,75.34246575342466,0,6,4.109589041095891
+17,dependent,7,5,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,110,146,75.34246575342466,0,6,4.109589041095891
+18,dependent,8,69,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,113,146,77.3972602739726,3,3,2.0547945205479454
+19,dependent,9,74,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,113,146,77.3972602739726,0,6,4.109589041095891
+20,dependent,10,87,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,113,146,77.3972602739726,0,7,4.794520547945205

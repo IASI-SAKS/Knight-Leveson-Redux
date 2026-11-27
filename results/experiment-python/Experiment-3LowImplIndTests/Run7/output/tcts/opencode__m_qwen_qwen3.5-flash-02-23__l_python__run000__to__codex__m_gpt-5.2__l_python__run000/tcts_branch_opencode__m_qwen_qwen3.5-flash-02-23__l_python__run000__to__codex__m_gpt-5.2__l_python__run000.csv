@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+4,dependent,1,0,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.2__l_python__run000,300,328,91.46341463414635,13,13,3.9634146341463414,115,160,71.875,13,13,8.125
+5,dependent,2,2,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.2__l_python__run000,300,328,91.46341463414635,0,13,3.9634146341463414,115,160,71.875,0,13,8.125
+6,dependent,3,36,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.2__l_python__run000,300,328,91.46341463414635,0,13,3.9634146341463414,115,160,71.875,0,13,8.125
+7,dependent,4,49,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.2__l_python__run000,301,328,91.76829268292683,1,13,3.9634146341463414,116,160,72.5,1,13,8.125
+8,dependent,5,62,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.2__l_python__run000,302,328,92.07317073170732,1,15,4.573170731707317,117,160,73.125,1,15,9.375
+9,dependent,6,74,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.2__l_python__run000,302,328,92.07317073170732,0,13,3.9634146341463414,117,160,73.125,0,13,8.125
+10,dependent,7,7,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.2__l_python__run000,302,328,92.07317073170732,0,14,4.2682926829268295,117,160,73.125,0,14,8.75
+11,dependent,8,87,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.2__l_python__run000,302,328,92.07317073170732,0,14,4.2682926829268295,117,160,73.125,0,14,8.75
+12,dependent,9,89,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.2__l_python__run000,302,328,92.07317073170732,0,14,4.2682926829268295,117,160,73.125,0,14,8.75
+13,dependent,10,93,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.2__l_python__run000,302,328,92.07317073170732,0,13,3.9634146341463414,117,160,73.125,0,13,8.125

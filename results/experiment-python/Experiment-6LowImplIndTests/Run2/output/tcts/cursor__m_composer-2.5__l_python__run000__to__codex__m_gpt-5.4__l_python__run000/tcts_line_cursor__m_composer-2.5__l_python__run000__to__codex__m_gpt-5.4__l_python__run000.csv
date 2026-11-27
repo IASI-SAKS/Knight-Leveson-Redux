@@ -1,0 +1,5 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+8,dependent,2,24,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.4__l_python__run000,211,231,91.34199134199135,1,1,0.4329004329004329,90,122,73.77049180327869,1,1,0.819672131147541
+9,dependent,3,2,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.4__l_python__run000,218,231,94.37229437229438,7,8,3.463203463203463,97,122,79.50819672131148,7,8,6.557377049180328
+13,dependent,7,69,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.4__l_python__run000,219,231,94.8051948051948,1,1,0.4329004329004329,99,122,81.14754098360656,2,2,1.639344262295082
+15,dependent,9,98,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.4__l_python__run000,219,231,94.8051948051948,0,1,0.4329004329004329,99,122,81.14754098360656,0,2,1.639344262295082

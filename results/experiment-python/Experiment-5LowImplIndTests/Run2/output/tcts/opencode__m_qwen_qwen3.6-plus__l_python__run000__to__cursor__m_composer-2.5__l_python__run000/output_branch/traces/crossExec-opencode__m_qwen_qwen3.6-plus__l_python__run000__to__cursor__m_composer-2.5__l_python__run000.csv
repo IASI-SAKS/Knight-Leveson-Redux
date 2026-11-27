@@ -1,0 +1,7 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,25,opencode__m_qwen_qwen3.6-plus__l_python__run000,cursor__m_composer-2.5__l_python__run000,212,285,74.3859649122807,212,N/A,N/A,80,156,51.282051282051285,80,N/A,N/A
+2,independent,2,77,opencode__m_qwen_qwen3.6-plus__l_python__run000,cursor__m_composer-2.5__l_python__run000,237,285,83.15789473684211,25,N/A,N/A,97,156,62.17948717948718,17,N/A,N/A
+3,independent,3,80,opencode__m_qwen_qwen3.6-plus__l_python__run000,cursor__m_composer-2.5__l_python__run000,239,285,83.85964912280701,2,N/A,N/A,100,156,64.1025641025641,3,N/A,N/A
+4,independent,4,79,opencode__m_qwen_qwen3.6-plus__l_python__run000,cursor__m_composer-2.5__l_python__run000,245,285,85.96491228070175,6,N/A,N/A,106,156,67.94871794871794,6,N/A,N/A
+5,independent,5,42,opencode__m_qwen_qwen3.6-plus__l_python__run000,cursor__m_composer-2.5__l_python__run000,247,285,86.66666666666667,2,N/A,N/A,109,156,69.87179487179488,3,N/A,N/A
+6,dependent,1,69,opencode__m_qwen_qwen3.6-plus__l_python__run000,cursor__m_composer-2.5__l_python__run000,248,285,87.01754385964912,1,1,0.3508771929824561,111,156,71.15384615384616,2,2,1.2820512820512822

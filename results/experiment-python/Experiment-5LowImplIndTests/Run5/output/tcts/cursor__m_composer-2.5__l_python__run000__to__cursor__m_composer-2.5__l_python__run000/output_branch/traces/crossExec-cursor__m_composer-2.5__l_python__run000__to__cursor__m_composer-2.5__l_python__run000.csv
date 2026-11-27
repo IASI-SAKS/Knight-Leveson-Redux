@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,14,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,126,285,44.21052631578947,126,N/A,N/A,40,156,25.641025641025642,40,N/A,N/A
+2,independent,2,54,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,238,285,83.50877192982456,112,N/A,N/A,101,156,64.74358974358974,61,N/A,N/A
+3,independent,3,42,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,250,285,87.71929824561404,12,N/A,N/A,112,156,71.7948717948718,11,N/A,N/A
+4,independent,4,78,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,252,285,88.42105263157895,2,N/A,N/A,114,156,73.07692307692308,2,N/A,N/A
+5,independent,5,63,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,252,285,88.42105263157895,0,N/A,N/A,114,156,73.07692307692308,0,N/A,N/A
+6,dependent,1,19,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,253,285,88.7719298245614,1,1,0.3508771929824561,115,156,73.71794871794872,1,1,0.6410256410256411
+7,dependent,2,36,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,254,285,89.12280701754386,1,1,0.3508771929824561,116,156,74.35897435897436,1,1,0.6410256410256411
+8,dependent,3,55,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,254,285,89.12280701754386,0,1,0.3508771929824561,116,156,74.35897435897436,0,1,0.6410256410256411
+9,dependent,4,87,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,254,285,89.12280701754386,0,1,0.3508771929824561,116,156,74.35897435897436,0,1,0.6410256410256411
+10,dependent,5,98,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,255,285,89.47368421052632,1,1,0.3508771929824561,118,156,75.64102564102564,2,2,1.2820512820512822

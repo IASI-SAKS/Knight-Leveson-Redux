@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,52,cursor__m_composer-2.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,181,217,83.41013824884793,181,N/A,N/A,81,144,56.25,81,N/A,N/A
+2,independent,2,95,cursor__m_composer-2.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,194,217,89.40092165898618,13,N/A,N/A,87,144,60.416666666666664,6,N/A,N/A
+3,dependent,1,12,cursor__m_composer-2.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,199,217,91.70506912442396,5,5,2.304147465437788,105,144,72.91666666666667,18,18,12.5
+4,dependent,2,1,cursor__m_composer-2.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,200,217,92.16589861751152,1,4,1.8433179723502304,106,144,73.61111111111111,1,9,6.25
+5,dependent,3,30,cursor__m_composer-2.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,3,3,1.3824884792626728,111,144,77.08333333333333,5,11,7.638888888888889
+6,dependent,4,36,cursor__m_composer-2.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,5,2.304147465437788,111,144,77.08333333333333,0,19,13.194444444444445
+7,dependent,5,38,cursor__m_composer-2.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,4,1.8433179723502304,112,144,77.77777777777777,1,12,8.333333333333334
+8,dependent,6,4,cursor__m_composer-2.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,3,1.3824884792626728,112,144,77.77777777777777,0,12,8.333333333333334
+9,dependent,7,70,cursor__m_composer-2.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,203,217,93.54838709677419,0,7,3.225806451612903,112,144,77.77777777777777,0,12,8.333333333333334

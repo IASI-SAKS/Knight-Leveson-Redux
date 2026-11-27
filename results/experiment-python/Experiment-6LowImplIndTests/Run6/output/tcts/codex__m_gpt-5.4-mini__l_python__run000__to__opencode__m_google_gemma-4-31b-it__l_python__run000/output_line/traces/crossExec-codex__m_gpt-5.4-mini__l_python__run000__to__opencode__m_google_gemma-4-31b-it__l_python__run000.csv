@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,18,codex__m_gpt-5.4-mini__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,183,216,84.72222222222223,183,N/A,N/A,83,142,58.45070422535211,83,N/A,N/A
+2,independent,2,9,codex__m_gpt-5.4-mini__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,187,216,86.57407407407408,4,N/A,N/A,93,142,65.49295774647888,10,N/A,N/A
+3,independent,3,8,codex__m_gpt-5.4-mini__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,187,216,86.57407407407408,0,N/A,N/A,93,142,65.49295774647888,0,N/A,N/A
+4,independent,4,23,codex__m_gpt-5.4-mini__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,187,216,86.57407407407408,0,N/A,N/A,96,142,67.6056338028169,3,N/A,N/A
+5,independent,5,13,codex__m_gpt-5.4-mini__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,187,216,86.57407407407408,0,N/A,N/A,104,142,73.2394366197183,8,N/A,N/A
+6,independent,6,25,codex__m_gpt-5.4-mini__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,187,216,86.57407407407408,0,N/A,N/A,104,142,73.2394366197183,0,N/A,N/A
+7,dependent,1,3,codex__m_gpt-5.4-mini__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,189,216,87.5,2,2,0.9259259259259259,106,142,74.64788732394366,2,2,1.408450704225352
+8,dependent,2,69,codex__m_gpt-5.4-mini__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,195,216,90.27777777777777,6,6,2.7777777777777777,114,142,80.28169014084507,8,8,5.633802816901408
+9,dependent,3,98,codex__m_gpt-5.4-mini__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,195,216,90.27777777777777,0,8,3.7037037037037037,114,142,80.28169014084507,0,9,6.338028169014085

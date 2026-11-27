@@ -1,0 +1,8 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+5,dependent,2,17,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,184,248,74.19354838709677,0,0,0.0,80,160,50.0,2,2,1.25
+6,dependent,3,27,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,186,248,75.0,2,2,0.8064516129032258,82,160,51.25,2,2,1.25
+7,dependent,4,30,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,186,248,75.0,0,0,0.0,83,160,51.875,1,3,1.875
+8,dependent,5,38,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,186,248,75.0,0,0,0.0,84,160,52.5,1,1,0.625
+11,dependent,8,88,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,186,248,75.0,0,0,0.0,85,160,53.125,1,2,1.25
+12,dependent,9,91,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,186,248,75.0,0,0,0.0,85,160,53.125,0,2,1.25
+13,dependent,10,98,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,186,248,75.0,0,2,0.8064516129032258,88,160,55.0,3,6,3.75

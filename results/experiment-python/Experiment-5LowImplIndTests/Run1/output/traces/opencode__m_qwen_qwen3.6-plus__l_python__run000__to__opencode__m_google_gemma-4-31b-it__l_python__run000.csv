@@ -1,0 +1,7 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,65,opencode__m_qwen_qwen3.6-plus__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,188,216,87.03703703703704,188,N/A,N/A,83,142,58.45070422535211,83,N/A,N/A
+2,independent,2,67,opencode__m_qwen_qwen3.6-plus__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,191,216,88.42592592592592,3,N/A,N/A,91,142,64.08450704225352,8,N/A,N/A
+3,independent,3,47,opencode__m_qwen_qwen3.6-plus__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,192,216,88.88888888888889,1,N/A,N/A,95,142,66.90140845070422,4,N/A,N/A
+4,independent,4,66,opencode__m_qwen_qwen3.6-plus__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,192,216,88.88888888888889,0,N/A,N/A,97,142,68.30985915492958,2,N/A,N/A
+5,independent,5,22,opencode__m_qwen_qwen3.6-plus__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,199,216,92.12962962962963,7,N/A,N/A,100,142,70.4225352112676,3,N/A,N/A
+6,dependent,1,69,opencode__m_qwen_qwen3.6-plus__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,205,216,94.9074074074074,6,6,2.7777777777777777,108,142,76.05633802816901,8,8,5.633802816901408

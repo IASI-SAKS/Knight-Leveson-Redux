@@ -1,0 +1,16 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,65,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,249,284,87.67605633802818,249,N/A,N/A,86,146,58.9041095890411,86,N/A,N/A
+2,independent,2,67,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,254,284,89.43661971830986,5,N/A,N/A,94,146,64.38356164383562,8,N/A,N/A
+3,independent,3,47,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,254,284,89.43661971830986,0,N/A,N/A,96,146,65.75342465753425,2,N/A,N/A
+4,independent,4,66,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,254,284,89.43661971830986,0,N/A,N/A,98,146,67.12328767123287,2,N/A,N/A
+5,independent,5,22,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,261,284,91.90140845070422,7,N/A,N/A,101,146,69.17808219178082,3,N/A,N/A
+6,dependent,1,16,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,1,1,0.352112676056338,102,146,69.86301369863014,1,1,0.684931506849315
+7,dependent,2,30,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,103,146,70.54794520547945,1,1,0.684931506849315
+8,dependent,3,31,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,103,146,70.54794520547945,0,1,0.684931506849315
+9,dependent,4,32,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,103,146,70.54794520547945,0,0,0.0
+10,dependent,5,37,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,103,146,70.54794520547945,0,0,0.0
+11,dependent,6,4,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,103,146,70.54794520547945,0,0,0.0
+12,dependent,7,57,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,1,0.352112676056338,103,146,70.54794520547945,0,1,0.684931506849315
+13,dependent,8,60,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,103,146,70.54794520547945,0,0,0.0
+14,dependent,9,64,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,103,146,70.54794520547945,0,0,0.0
+15,dependent,10,79,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,262,284,92.25352112676056,0,0,0.0,103,146,70.54794520547945,0,0,0.0

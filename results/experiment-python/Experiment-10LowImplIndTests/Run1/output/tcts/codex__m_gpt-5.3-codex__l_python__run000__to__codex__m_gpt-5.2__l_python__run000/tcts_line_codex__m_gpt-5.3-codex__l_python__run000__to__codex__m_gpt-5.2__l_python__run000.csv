@@ -1,0 +1,2 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+11,dependent,1,12,codex__m_gpt-5.3-codex__l_python__run000,codex__m_gpt-5.2__l_python__run000,302,328,92.07317073170732,6,6,1.829268292682927,121,160,75.625,6,6,3.75

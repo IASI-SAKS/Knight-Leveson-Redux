@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+21,dependent,1,0,codex__m_gpt-5.4__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,264,280,94.28571428571429,7,7,2.5,105,132,79.54545454545455,7,7,5.303030303030303
+22,dependent,2,12,codex__m_gpt-5.4__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,264,280,94.28571428571429,0,6,2.142857142857143,105,132,79.54545454545455,0,6,4.545454545454546
+23,dependent,3,13,codex__m_gpt-5.4__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,264,280,94.28571428571429,0,7,2.5,105,132,79.54545454545455,0,7,5.303030303030303
+24,dependent,4,49,codex__m_gpt-5.4__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,264,280,94.28571428571429,0,6,2.142857142857143,105,132,79.54545454545455,0,6,4.545454545454546
+25,dependent,5,50,codex__m_gpt-5.4__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,264,280,94.28571428571429,0,6,2.142857142857143,105,132,79.54545454545455,0,6,4.545454545454546
+26,dependent,6,62,codex__m_gpt-5.4__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,264,280,94.28571428571429,0,7,2.5,105,132,79.54545454545455,0,7,5.303030303030303
+27,dependent,7,69,codex__m_gpt-5.4__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,265,280,94.64285714285714,1,1,0.35714285714285715,108,132,81.81818181818181,3,3,2.272727272727273
+28,dependent,8,74,codex__m_gpt-5.4__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,265,280,94.64285714285714,0,6,2.142857142857143,108,132,81.81818181818181,0,6,4.545454545454546
+29,dependent,9,76,codex__m_gpt-5.4__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,265,280,94.64285714285714,0,6,2.142857142857143,108,132,81.81818181818181,0,6,4.545454545454546
+30,dependent,10,87,codex__m_gpt-5.4__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,265,280,94.64285714285714,0,7,2.5,108,132,81.81818181818181,0,7,5.303030303030303

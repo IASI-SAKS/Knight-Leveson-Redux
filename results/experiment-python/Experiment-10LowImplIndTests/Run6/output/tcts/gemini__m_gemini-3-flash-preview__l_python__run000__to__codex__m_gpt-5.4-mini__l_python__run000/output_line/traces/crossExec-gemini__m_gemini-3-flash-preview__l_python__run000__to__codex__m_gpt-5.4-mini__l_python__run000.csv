@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,41,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,195,248,78.62903225806451,195,N/A,N/A,79,160,49.375,79,N/A,N/A
+2,independent,2,35,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,210,248,84.6774193548387,15,N/A,N/A,91,160,56.875,12,N/A,N/A
+3,independent,3,65,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,213,248,85.88709677419355,3,N/A,N/A,95,160,59.375,4,N/A,N/A
+4,independent,4,25,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,216,248,87.09677419354838,3,N/A,N/A,99,160,61.875,4,N/A,N/A
+5,independent,5,10,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,216,248,87.09677419354838,0,N/A,N/A,99,160,61.875,0,N/A,N/A
+6,independent,6,66,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,217,248,87.5,1,N/A,N/A,100,160,62.5,1,N/A,N/A
+7,independent,7,52,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,2,N/A,N/A,101,160,63.125,1,N/A,N/A
+8,independent,8,63,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,N/A,N/A,101,160,63.125,0,N/A,N/A
+9,independent,9,58,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,N/A,N/A,103,160,64.375,2,N/A,N/A
+10,independent,10,42,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,219,248,88.30645161290323,0,N/A,N/A,103,160,64.375,0,N/A,N/A

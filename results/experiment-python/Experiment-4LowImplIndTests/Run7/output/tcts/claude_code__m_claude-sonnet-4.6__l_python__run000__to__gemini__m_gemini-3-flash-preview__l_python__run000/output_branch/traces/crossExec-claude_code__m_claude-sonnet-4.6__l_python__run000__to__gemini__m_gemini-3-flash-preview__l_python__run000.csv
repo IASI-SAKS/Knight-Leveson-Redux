@@ -1,0 +1,9 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,82,claude_code__m_claude-sonnet-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,154,217,70.96774193548387,154,N/A,N/A,68,144,47.22222222222222,68,N/A,N/A
+2,independent,2,95,claude_code__m_claude-sonnet-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,193,217,88.94009216589862,39,N/A,N/A,91,144,63.19444444444444,23,N/A,N/A
+3,independent,3,48,claude_code__m_claude-sonnet-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,195,217,89.86175115207374,2,N/A,N/A,95,144,65.97222222222223,4,N/A,N/A
+4,independent,4,42,claude_code__m_claude-sonnet-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,201,217,92.62672811059907,6,N/A,N/A,102,144,70.83333333333333,7,N/A,N/A
+5,dependent,1,21,claude_code__m_claude-sonnet-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,201,217,92.62672811059907,0,0,0.0,103,144,71.52777777777777,1,1,0.6944444444444444
+6,dependent,2,33,claude_code__m_claude-sonnet-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,201,217,92.62672811059907,0,0,0.0,104,144,72.22222222222223,1,2,1.3888888888888888
+7,dependent,3,37,claude_code__m_claude-sonnet-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,201,217,92.62672811059907,0,0,0.0,104,144,72.22222222222223,0,1,0.6944444444444444
+8,dependent,4,96,claude_code__m_claude-sonnet-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,201,217,92.62672811059907,0,0,0.0,108,144,75.0,4,5,3.4722222222222223

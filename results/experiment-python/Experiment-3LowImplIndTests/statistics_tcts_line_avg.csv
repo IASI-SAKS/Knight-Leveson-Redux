@@ -1,0 +1,257 @@
+Number of Files,Source Implementation,Target Implementation,Warnings,Number of True Cross Tests
+9,claude_code__m_claude-opus-4.5__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,Same implementation,8.22
+9,claude_code__m_claude-opus-4.5__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,,8.22
+9,claude_code__m_claude-opus-4.5__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,,8.78
+9,claude_code__m_claude-opus-4.5__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,,8.22
+9,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.2__l_python__run000,,8.89
+9,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,,8.22
+9,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.0
+9,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.4__l_python__run000,,8.22
+9,claude_code__m_claude-opus-4.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,,8.78
+9,claude_code__m_claude-opus-4.5__l_python__run000,cursor__m_composer-2__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.0
+9,claude_code__m_claude-opus-4.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.33
+9,claude_code__m_claude-opus-4.5__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.33
+9,claude_code__m_claude-opus-4.5__l_python__run000,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,,8.22
+9,claude_code__m_claude-opus-4.5__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,,6.22
+9,claude_code__m_claude-opus-4.5__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,,8.22
+9,claude_code__m_claude-opus-4.5__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.33
+9,claude_code__m_claude-opus-4.6__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,,8.0
+9,claude_code__m_claude-opus-4.6__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,Same implementation,8.0
+9,claude_code__m_claude-opus-4.6__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,,8.89
+9,claude_code__m_claude-opus-4.6__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,,8.0
+9,claude_code__m_claude-opus-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,,9.0
+9,claude_code__m_claude-opus-4.6__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,,8.0
+9,claude_code__m_claude-opus-4.6__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.89
+9,claude_code__m_claude-opus-4.6__l_python__run000,codex__m_gpt-5.4__l_python__run000,,8.0
+9,claude_code__m_claude-opus-4.6__l_python__run000,cursor__m_composer-2.5__l_python__run000,,8.89
+9,claude_code__m_claude-opus-4.6__l_python__run000,cursor__m_composer-2__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.89
+9,claude_code__m_claude-opus-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.22
+9,claude_code__m_claude-opus-4.6__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.44
+9,claude_code__m_claude-opus-4.6__l_python__run000,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,,8.0
+9,claude_code__m_claude-opus-4.6__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.89
+9,claude_code__m_claude-opus-4.6__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,,8.0
+9,claude_code__m_claude-opus-4.6__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.22
+9,claude_code__m_claude-sonnet-4.5__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,,9.11
+9,claude_code__m_claude-sonnet-4.5__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,,9.11
+9,claude_code__m_claude-sonnet-4.5__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,Same implementation,9.44
+9,claude_code__m_claude-sonnet-4.5__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,,9.11
+9,claude_code__m_claude-sonnet-4.5__l_python__run000,codex__m_gpt-5.2__l_python__run000,,9.44
+9,claude_code__m_claude-sonnet-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,,9.11
+9,claude_code__m_claude-sonnet-4.5__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.33
+9,claude_code__m_claude-sonnet-4.5__l_python__run000,codex__m_gpt-5.4__l_python__run000,,9.11
+9,claude_code__m_claude-sonnet-4.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,,9.44
+9,claude_code__m_claude-sonnet-4.5__l_python__run000,cursor__m_composer-2__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.33
+9,claude_code__m_claude-sonnet-4.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.56
+9,claude_code__m_claude-sonnet-4.5__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,,3.44
+9,claude_code__m_claude-sonnet-4.5__l_python__run000,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,,9.11
+9,claude_code__m_claude-sonnet-4.5__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,,6.0
+9,claude_code__m_claude-sonnet-4.5__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,,9.11
+9,claude_code__m_claude-sonnet-4.5__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.56
+9,claude_code__m_claude-sonnet-4.6__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,,7.89
+9,claude_code__m_claude-sonnet-4.6__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,,7.89
+9,claude_code__m_claude-sonnet-4.6__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,,8.56
+9,claude_code__m_claude-sonnet-4.6__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,Same implementation,7.89
+9,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,,8.56
+9,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,,7.89
+9,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.0
+9,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.4__l_python__run000,,7.89
+9,claude_code__m_claude-sonnet-4.6__l_python__run000,cursor__m_composer-2.5__l_python__run000,,8.56
+9,claude_code__m_claude-sonnet-4.6__l_python__run000,cursor__m_composer-2__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.0
+9,claude_code__m_claude-sonnet-4.6__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.33
+9,claude_code__m_claude-sonnet-4.6__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.56
+9,claude_code__m_claude-sonnet-4.6__l_python__run000,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,,7.89
+9,claude_code__m_claude-sonnet-4.6__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.33
+9,claude_code__m_claude-sonnet-4.6__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,,7.89
+9,claude_code__m_claude-sonnet-4.6__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.33
+9,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,,8.78
+9,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,,8.78
+9,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,,9.0
+9,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,,8.78
+9,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.2__l_python__run000,Same implementation,9.11
+9,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,,8.78
+9,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.67
+9,codex__m_gpt-5.2__l_python__run000,codex__m_gpt-5.4__l_python__run000,,8.78
+9,codex__m_gpt-5.2__l_python__run000,cursor__m_composer-2.5__l_python__run000,,9.0
+9,codex__m_gpt-5.2__l_python__run000,cursor__m_composer-2__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.67
+9,codex__m_gpt-5.2__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.0
+9,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.78
+9,codex__m_gpt-5.2__l_python__run000,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,,8.78
+9,codex__m_gpt-5.2__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,,6.0
+9,codex__m_gpt-5.2__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,,8.78
+9,codex__m_gpt-5.2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.0
+9,codex__m_gpt-5.3-codex__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,,8.22
+9,codex__m_gpt-5.3-codex__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,,8.22
+9,codex__m_gpt-5.3-codex__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,,8.89
+9,codex__m_gpt-5.3-codex__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,,8.22
+9,codex__m_gpt-5.3-codex__l_python__run000,codex__m_gpt-5.2__l_python__run000,,9.0
+9,codex__m_gpt-5.3-codex__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,Same implementation,8.22
+9,codex__m_gpt-5.3-codex__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.56
+9,codex__m_gpt-5.3-codex__l_python__run000,codex__m_gpt-5.4__l_python__run000,,8.22
+9,codex__m_gpt-5.3-codex__l_python__run000,cursor__m_composer-2.5__l_python__run000,,8.89
+9,codex__m_gpt-5.3-codex__l_python__run000,cursor__m_composer-2__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.56
+9,codex__m_gpt-5.3-codex__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.89
+9,codex__m_gpt-5.3-codex__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.89
+9,codex__m_gpt-5.3-codex__l_python__run000,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,,8.22
+9,codex__m_gpt-5.3-codex__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,,5.89
+9,codex__m_gpt-5.3-codex__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,,8.22
+9,codex__m_gpt-5.3-codex__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.89
+9,codex__m_gpt-5.4-mini__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,,7.67
+9,codex__m_gpt-5.4-mini__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,,7.67
+9,codex__m_gpt-5.4-mini__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,,7.78
+9,codex__m_gpt-5.4-mini__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,,7.67
+9,codex__m_gpt-5.4-mini__l_python__run000,codex__m_gpt-5.2__l_python__run000,,7.78
+9,codex__m_gpt-5.4-mini__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,,7.67
+9,codex__m_gpt-5.4-mini__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,Same implementation | Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,1.78
+9,codex__m_gpt-5.4-mini__l_python__run000,codex__m_gpt-5.4__l_python__run000,,7.67
+9,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2.5__l_python__run000,,7.78
+9,codex__m_gpt-5.4-mini__l_python__run000,cursor__m_composer-2__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,1.78
+9,codex__m_gpt-5.4-mini__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,2.11
+9,codex__m_gpt-5.4-mini__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,,3.44
+9,codex__m_gpt-5.4-mini__l_python__run000,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,,7.67
+9,codex__m_gpt-5.4-mini__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,,4.22
+9,codex__m_gpt-5.4-mini__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,,7.67
+9,codex__m_gpt-5.4-mini__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,2.11
+9,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,,9.89
+9,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,,9.89
+9,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,,9.89
+9,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,,9.89
+9,codex__m_gpt-5.4__l_python__run000,codex__m_gpt-5.2__l_python__run000,,9.89
+9,codex__m_gpt-5.4__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,,9.89
+9,codex__m_gpt-5.4__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.33
+9,codex__m_gpt-5.4__l_python__run000,codex__m_gpt-5.4__l_python__run000,Same implementation,9.89
+9,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2.5__l_python__run000,,9.89
+9,codex__m_gpt-5.4__l_python__run000,cursor__m_composer-2__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.33
+9,codex__m_gpt-5.4__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.67
+9,codex__m_gpt-5.4__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.56
+9,codex__m_gpt-5.4__l_python__run000,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,,9.89
+9,codex__m_gpt-5.4__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,,9.78
+9,codex__m_gpt-5.4__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,,9.89
+9,codex__m_gpt-5.4__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.67
+9,cursor__m_composer-2.5__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,,8.67
+9,cursor__m_composer-2.5__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,,8.67
+9,cursor__m_composer-2.5__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,,9.33
+9,cursor__m_composer-2.5__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,,8.67
+9,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.2__l_python__run000,,9.56
+9,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,,8.67
+9,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.11
+9,cursor__m_composer-2.5__l_python__run000,codex__m_gpt-5.4__l_python__run000,,8.67
+9,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,Same implementation,9.33
+9,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.11
+9,cursor__m_composer-2.5__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.44
+9,cursor__m_composer-2.5__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,,3.44
+9,cursor__m_composer-2.5__l_python__run000,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,,8.67
+9,cursor__m_composer-2.5__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.56
+9,cursor__m_composer-2.5__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,,8.67
+9,cursor__m_composer-2.5__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.44
+9,cursor__m_composer-2__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,,10.0
+9,cursor__m_composer-2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,,10.0
+9,cursor__m_composer-2__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,,10.0
+9,cursor__m_composer-2__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,,10.0
+9,cursor__m_composer-2__l_python__run000,codex__m_gpt-5.2__l_python__run000,,10.0
+9,cursor__m_composer-2__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,,10.0
+9,cursor__m_composer-2__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.22
+9,cursor__m_composer-2__l_python__run000,codex__m_gpt-5.4__l_python__run000,,10.0
+9,cursor__m_composer-2__l_python__run000,cursor__m_composer-2.5__l_python__run000,,10.0
+9,cursor__m_composer-2__l_python__run000,cursor__m_composer-2__l_python__run000,Same implementation | Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.22
+9,cursor__m_composer-2__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.44
+9,cursor__m_composer-2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.22
+9,cursor__m_composer-2__l_python__run000,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,,10.0
+9,cursor__m_composer-2__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,,10.0
+9,cursor__m_composer-2__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,,10.0
+9,cursor__m_composer-2__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.44
+9,gemini__m_gemini-3-flash-preview__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,,8.11
+9,gemini__m_gemini-3-flash-preview__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,,8.11
+9,gemini__m_gemini-3-flash-preview__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,,8.78
+9,gemini__m_gemini-3-flash-preview__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,,8.11
+9,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.2__l_python__run000,,8.78
+9,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,,8.11
+9,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.0
+9,gemini__m_gemini-3-flash-preview__l_python__run000,codex__m_gpt-5.4__l_python__run000,,8.11
+9,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2.5__l_python__run000,,8.78
+9,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.0
+9,gemini__m_gemini-3-flash-preview__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,Same implementation | Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.67
+9,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,,3.44
+9,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,,8.11
+9,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,,4.33
+9,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,,8.11
+9,gemini__m_gemini-3-flash-preview__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.67
+9,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,,8.44
+9,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,,8.44
+9,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,,9.33
+9,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,,8.44
+9,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.2__l_python__run000,,9.33
+9,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,,8.44
+9,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.11
+9,opencode__m_google_gemma-4-31b-it__l_python__run000,codex__m_gpt-5.4__l_python__run000,,8.44
+9,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2.5__l_python__run000,,9.33
+9,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.11
+9,opencode__m_google_gemma-4-31b-it__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.56
+9,opencode__m_google_gemma-4-31b-it__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,Same implementation,4.78
+9,opencode__m_google_gemma-4-31b-it__l_python__run000,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,,8.44
+9,opencode__m_google_gemma-4-31b-it__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,,4.89
+9,opencode__m_google_gemma-4-31b-it__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,,8.44
+9,opencode__m_google_gemma-4-31b-it__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.56
+9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.2__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.44
+9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.4__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,cursor__m_composer-2.5__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,cursor__m_composer-2__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.44
+9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.67
+9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.44
+9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,Same implementation,10.0
+9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.67
+9,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.2__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.67
+9,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,codex__m_gpt-5.4__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,cursor__m_composer-2.5__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,cursor__m_composer-2__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.67
+9,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.0
+9,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.67
+9,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,Same implementation,10.0
+9,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,4.0
+9,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,codex__m_gpt-5.2__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,2.89
+9,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,codex__m_gpt-5.4__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,cursor__m_composer-2.5__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,cursor__m_composer-2__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,2.89
+9,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.33
+9,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,2.89
+9,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,,10.0
+9,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,Same implementation,10.0
+9,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,3.33
+9,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,,1.0
+9,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,,1.0
+9,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,,1.0
+9,opencode__m_qwen_qwen3.6-plus__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,,1.0
+9,opencode__m_qwen_qwen3.6-plus__l_python__run000,codex__m_gpt-5.2__l_python__run000,,1.0
+9,opencode__m_qwen_qwen3.6-plus__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,,1.0
+9,opencode__m_qwen_qwen3.6-plus__l_python__run000,codex__m_gpt-5.4-mini__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,0.22
+9,opencode__m_qwen_qwen3.6-plus__l_python__run000,codex__m_gpt-5.4__l_python__run000,,1.0
+9,opencode__m_qwen_qwen3.6-plus__l_python__run000,cursor__m_composer-2.5__l_python__run000,,1.0
+9,opencode__m_qwen_qwen3.6-plus__l_python__run000,cursor__m_composer-2__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,0.22
+9,opencode__m_qwen_qwen3.6-plus__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target,0.22
+9,opencode__m_qwen_qwen3.6-plus__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,,1.0
+9,opencode__m_qwen_qwen3.6-plus__l_python__run000,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,,1.0
+9,opencode__m_qwen_qwen3.6-plus__l_python__run000,opencode__m_qwen_qwen3.5-flash-02-23__l_python__run000,,1.0
+9,opencode__m_qwen_qwen3.6-plus__l_python__run000,opencode__m_qwen_qwen3.5-plus-02-15__l_python__run000,,1.0
+9,opencode__m_qwen_qwen3.6-plus__l_python__run000,opencode__m_qwen_qwen3.6-plus__l_python__run000,Empty fields: source and target not found. Possibly there are no True cross-tests from the source that are applicable on the target | Same implementation,0.22

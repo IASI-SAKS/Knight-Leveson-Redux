@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+11,dependent,1,0,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.2__l_python__run000,303,328,92.3780487804878,13,13,3.9634146341463414,122,160,76.25,13,13,8.125
+12,dependent,2,12,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.2__l_python__run000,303,328,92.3780487804878,0,12,3.658536585365854,122,160,76.25,0,12,7.5
+13,dependent,3,14,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.2__l_python__run000,303,328,92.3780487804878,0,12,3.658536585365854,122,160,76.25,0,12,7.5
+14,dependent,4,43,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.2__l_python__run000,303,328,92.3780487804878,0,12,3.658536585365854,122,160,76.25,0,12,7.5
+15,dependent,5,72,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.2__l_python__run000,303,328,92.3780487804878,0,12,3.658536585365854,122,160,76.25,0,12,7.5
+16,dependent,6,74,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.2__l_python__run000,303,328,92.3780487804878,0,12,3.658536585365854,122,160,76.25,0,12,7.5
+17,dependent,7,7,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.2__l_python__run000,303,328,92.3780487804878,0,12,3.658536585365854,122,160,76.25,0,12,7.5
+18,dependent,8,89,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.2__l_python__run000,303,328,92.3780487804878,0,12,3.658536585365854,122,160,76.25,0,12,7.5
+19,dependent,9,93,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.2__l_python__run000,303,328,92.3780487804878,0,12,3.658536585365854,122,160,76.25,0,12,7.5
+20,dependent,10,99,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,codex__m_gpt-5.2__l_python__run000,304,328,92.6829268292683,1,13,3.9634146341463414,124,160,77.5,2,14,8.75

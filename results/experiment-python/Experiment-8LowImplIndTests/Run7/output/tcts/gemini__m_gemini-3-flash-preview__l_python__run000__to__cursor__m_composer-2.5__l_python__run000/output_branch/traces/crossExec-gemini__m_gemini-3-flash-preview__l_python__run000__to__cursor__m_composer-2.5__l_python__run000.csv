@@ -1,0 +1,12 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,10,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2.5__l_python__run000,226,285,79.29824561403508,226,N/A,N/A,88,156,56.41025641025641,88,N/A,N/A
+2,independent,2,58,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2.5__l_python__run000,237,285,83.15789473684211,11,N/A,N/A,97,156,62.17948717948718,9,N/A,N/A
+3,independent,3,25,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2.5__l_python__run000,239,285,83.85964912280701,2,N/A,N/A,99,156,63.46153846153846,2,N/A,N/A
+4,independent,4,57,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2.5__l_python__run000,244,285,85.6140350877193,5,N/A,N/A,104,156,66.66666666666667,5,N/A,N/A
+5,independent,5,92,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2.5__l_python__run000,244,285,85.6140350877193,0,N/A,N/A,104,156,66.66666666666667,0,N/A,N/A
+6,independent,6,59,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2.5__l_python__run000,246,285,86.3157894736842,2,N/A,N/A,108,156,69.23076923076923,4,N/A,N/A
+7,independent,7,8,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2.5__l_python__run000,246,285,86.3157894736842,0,N/A,N/A,108,156,69.23076923076923,0,N/A,N/A
+8,independent,8,61,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2.5__l_python__run000,246,285,86.3157894736842,0,N/A,N/A,108,156,69.23076923076923,0,N/A,N/A
+9,dependent,1,30,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2.5__l_python__run000,248,285,87.01754385964912,2,2,0.7017543859649122,110,156,70.51282051282051,2,2,1.2820512820512822
+10,dependent,2,3,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2.5__l_python__run000,248,285,87.01754385964912,0,2,0.7017543859649122,110,156,70.51282051282051,0,2,1.2820512820512822
+11,dependent,3,4,gemini__m_gemini-3-flash-preview__l_python__run000,cursor__m_composer-2.5__l_python__run000,248,285,87.01754385964912,0,1,0.3508771929824561,110,156,70.51282051282051,0,1,0.6410256410256411

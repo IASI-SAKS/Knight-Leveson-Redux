@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+6,dependent,1,11,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,221,261,84.67432950191571,7,7,2.681992337164751,98,142,69.01408450704226,7,7,4.929577464788732
+7,dependent,2,24,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,223,261,85.44061302681992,2,3,1.1494252873563218,101,142,71.12676056338029,3,4,2.816901408450704
+8,dependent,3,2,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,224,261,85.82375478927203,1,10,3.8314176245210727,102,142,71.83098591549296,1,10,7.042253521126761
+9,dependent,4,62,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,224,261,85.82375478927203,0,8,3.0651340996168583,102,142,71.83098591549296,0,8,5.633802816901408
+10,dependent,5,68,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,224,261,85.82375478927203,0,3,1.1494252873563218,102,142,71.83098591549296,0,4,2.816901408450704
+12,dependent,7,72,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,224,261,85.82375478927203,0,7,2.681992337164751,102,142,71.83098591549296,0,7,4.929577464788732
+13,dependent,8,74,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,224,261,85.82375478927203,0,9,3.4482758620689653,102,142,71.83098591549296,0,9,6.338028169014085
+14,dependent,9,93,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,224,261,85.82375478927203,0,7,2.681992337164751,102,142,71.83098591549296,0,7,4.929577464788732
+15,dependent,10,97,codex__m_gpt-5.2__l_python__run000,claude_code__m_claude-opus-4.6__l_python__run000,224,261,85.82375478927203,0,2,0.7662835249042146,102,142,71.83098591549296,0,3,2.112676056338028

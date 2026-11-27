@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+6,dependent,1,0,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,269,294,91.49659863945578,6,6,2.0408163265306123,105,140,75.0,6,6,4.285714285714286
+7,dependent,2,11,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,269,294,91.49659863945578,0,6,2.0408163265306123,105,140,75.0,0,6,4.285714285714286
+8,dependent,3,2,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,269,294,91.49659863945578,0,6,2.0408163265306123,105,140,75.0,0,6,4.285714285714286
+9,dependent,4,43,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,269,294,91.49659863945578,0,6,2.0408163265306123,105,140,75.0,0,6,4.285714285714286
+10,dependent,5,50,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,269,294,91.49659863945578,0,6,2.0408163265306123,105,140,75.0,0,6,4.285714285714286
+11,dependent,6,5,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,269,294,91.49659863945578,0,6,2.0408163265306123,105,140,75.0,0,6,4.285714285714286
+12,dependent,7,62,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,269,294,91.49659863945578,0,6,2.0408163265306123,105,140,75.0,0,6,4.285714285714286
+13,dependent,8,74,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,269,294,91.49659863945578,0,6,2.0408163265306123,105,140,75.0,0,6,4.285714285714286
+14,dependent,9,7,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.6__l_python__run000,269,294,91.49659863945578,0,6,2.0408163265306123,105,140,75.0,0,6,4.285714285714286

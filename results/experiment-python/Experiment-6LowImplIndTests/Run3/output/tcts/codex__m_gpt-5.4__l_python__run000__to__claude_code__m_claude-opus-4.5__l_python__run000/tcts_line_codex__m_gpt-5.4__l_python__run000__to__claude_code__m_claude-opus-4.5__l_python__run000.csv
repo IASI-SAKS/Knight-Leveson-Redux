@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+7,dependent,1,0,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,253,280,90.35714285714286,8,8,2.857142857142857,111,146,76.02739726027397,8,8,5.47945205479452
+8,dependent,2,11,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,253,280,90.35714285714286,0,7,2.5,111,146,76.02739726027397,0,7,4.794520547945205
+9,dependent,3,43,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,253,280,90.35714285714286,0,7,2.5,111,146,76.02739726027397,0,7,4.794520547945205
+10,dependent,4,49,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,253,280,90.35714285714286,0,7,2.5,111,146,76.02739726027397,0,7,4.794520547945205
+11,dependent,5,74,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,253,280,90.35714285714286,0,7,2.5,111,146,76.02739726027397,0,7,4.794520547945205
+12,dependent,6,76,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,253,280,90.35714285714286,0,7,2.5,111,146,76.02739726027397,0,7,4.794520547945205
+13,dependent,7,7,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,253,280,90.35714285714286,0,7,2.5,111,146,76.02739726027397,0,7,4.794520547945205
+15,dependent,9,89,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,253,280,90.35714285714286,0,7,2.5,112,146,76.71232876712328,0,7,4.794520547945205
+16,dependent,10,99,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,254,280,90.71428571428571,1,8,2.857142857142857,114,146,78.08219178082192,2,9,6.164383561643835

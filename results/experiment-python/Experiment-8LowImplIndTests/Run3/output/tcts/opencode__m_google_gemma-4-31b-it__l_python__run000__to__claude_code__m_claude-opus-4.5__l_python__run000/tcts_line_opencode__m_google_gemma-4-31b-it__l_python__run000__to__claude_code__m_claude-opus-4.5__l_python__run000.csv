@@ -1,0 +1,3 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+13,dependent,5,24,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,246,280,87.85714285714286,1,1,0.35714285714285715,105,146,71.91780821917808,1,2,1.36986301369863
+15,dependent,7,31,opencode__m_google_gemma-4-31b-it__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,247,280,88.21428571428571,1,1,0.35714285714285715,106,146,72.6027397260274,1,1,0.684931506849315

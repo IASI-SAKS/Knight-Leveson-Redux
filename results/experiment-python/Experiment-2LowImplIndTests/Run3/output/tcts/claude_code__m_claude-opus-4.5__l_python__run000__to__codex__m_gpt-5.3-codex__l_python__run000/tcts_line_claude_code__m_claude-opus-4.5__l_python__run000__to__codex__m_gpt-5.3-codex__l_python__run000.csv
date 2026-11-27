@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+3,dependent,1,13,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,252,280,90.0,8,8,2.857142857142857,91,132,68.93939393939394,9,9,6.818181818181818
+4,dependent,2,17,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,253,280,90.35714285714286,1,2,0.7142857142857143,93,132,70.45454545454545,2,3,2.272727272727273
+5,dependent,3,34,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,254,280,90.71428571428571,1,2,0.7142857142857143,95,132,71.96969696969697,2,4,3.0303030303030303
+7,dependent,5,60,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,254,280,90.71428571428571,0,1,0.35714285714285715,95,132,71.96969696969697,0,1,0.7575757575757576
+8,dependent,6,76,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,254,280,90.71428571428571,0,7,2.5,95,132,71.96969696969697,0,7,5.303030303030303
+9,dependent,7,81,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,254,280,90.71428571428571,0,1,0.35714285714285715,95,132,71.96969696969697,0,1,0.7575757575757576
+10,dependent,8,84,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,254,280,90.71428571428571,0,2,0.7142857142857143,95,132,71.96969696969697,0,4,3.0303030303030303
+11,dependent,9,92,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,254,280,90.71428571428571,0,2,0.7142857142857143,95,132,71.96969696969697,0,3,2.272727272727273
+12,dependent,10,98,claude_code__m_claude-opus-4.5__l_python__run000,codex__m_gpt-5.3-codex__l_python__run000,257,280,91.78571428571429,3,4,1.4285714285714286,100,132,75.75757575757575,5,8,6.0606060606060606

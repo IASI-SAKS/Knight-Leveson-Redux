@@ -1,0 +1,6 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+7,dependent,3,21,gemini__m_gemini-3-flash-preview__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,182,217,83.87096774193549,0,0,0.0,98,144,68.05555555555556,2,2,1.3888888888888888
+9,dependent,5,3,gemini__m_gemini-3-flash-preview__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,182,217,83.87096774193549,0,0,0.0,98,144,68.05555555555556,0,2,1.3888888888888888
+10,dependent,6,51,gemini__m_gemini-3-flash-preview__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,182,217,83.87096774193549,0,0,0.0,98,144,68.05555555555556,0,2,1.3888888888888888
+13,dependent,9,91,gemini__m_gemini-3-flash-preview__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,182,217,83.87096774193549,0,0,0.0,98,144,68.05555555555556,0,2,1.3888888888888888
+14,dependent,10,96,gemini__m_gemini-3-flash-preview__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,182,217,83.87096774193549,0,0,0.0,101,144,70.13888888888889,3,5,3.4722222222222223

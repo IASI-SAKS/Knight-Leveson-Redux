@@ -1,0 +1,9 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+6,dependent,1,37,codex__m_gpt-5.4-mini__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,245,280,87.5,6,6,2.142857142857143,103,146,70.54794520547945,6,6,4.109589041095891
+7,dependent,2,3,codex__m_gpt-5.4-mini__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,246,280,87.85714285714286,1,7,2.5,104,146,71.23287671232876,1,7,4.794520547945205
+8,dependent,3,44,codex__m_gpt-5.4-mini__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,246,280,87.85714285714286,0,7,2.5,104,146,71.23287671232876,0,7,4.794520547945205
+9,dependent,4,4,codex__m_gpt-5.4-mini__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,246,280,87.85714285714286,0,6,2.142857142857143,104,146,71.23287671232876,0,6,4.109589041095891
+10,dependent,5,51,codex__m_gpt-5.4-mini__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,246,280,87.85714285714286,0,7,2.5,104,146,71.23287671232876,0,7,4.794520547945205
+11,dependent,6,69,codex__m_gpt-5.4-mini__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,247,280,88.21428571428571,1,6,2.142857142857143,107,146,73.28767123287672,3,8,5.47945205479452
+12,dependent,7,91,codex__m_gpt-5.4-mini__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,248,280,88.57142857142857,1,7,2.5,108,146,73.97260273972603,1,7,4.794520547945205
+13,dependent,8,98,codex__m_gpt-5.4-mini__l_python__run000,claude_code__m_claude-opus-4.5__l_python__run000,248,280,88.57142857142857,0,6,2.142857142857143,108,146,73.97260273972603,0,8,5.47945205479452
