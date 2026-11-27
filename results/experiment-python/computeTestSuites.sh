@@ -85,9 +85,21 @@ do
 # 
 # the sequences of "grep -v" statements filters entries with line coverage in a range so that: 80.00% <= LC < 90.00%
 #   sed -n "/^${ALT}/,/^$/p" ${PCOV_FILE}| grep "test_id" | grep "lines= [8].\." | grep -v "lines= 9.\." | shuf | head -n ${IMPLEMENTATION_DEPENDENT_TESTSUITE_SIZE} | sort > ${IMPLEMENTATION_DEPENDENT_TESTSUITE_FILE}
+#
+# Examples with an High coverage rate, folder names are tagged as "High"
+# the sequences of "grep -v" statements filters entries with line coverage in a range so that: 75.00% <= LC < 85.00%
+# sed -n "/^${ALT}/,/^$/p" ${PCOV_FILE}| grep "test_id" | grep "lines= [78].\." | grep -v "lines= 7[01234]\." | grep -v "lines= 8[56789]\." | shuf | head -n ${IMPLEMENTATION_DEPENDENT_TESTSUITE_SIZE} | sort > ${IMPLEMENTATION_DEPENDENT_TESTSUITE_FILE}
+#
+# Examples with a Very High coverage rate, folder names are tagged as "VeryHigh"
+# the sequences of "grep -v" statements filters entries with line coverage in a range so that: LC >= 85.00%
+#  sed -n "/^${ALT}/,/^$/p" ${PCOV_FILE}| grep "test_id" | grep "lines= [89].\." | grep -v "lines= 8[01234]\." | shuf | head -n ${IMPLEMENTATION_DEPENDENT_TESTSUITE_SIZE} | sort > ${IMPLEMENTATION_DEPENDENT_TESTSUITE_FILE}
 # 
+# Canonical Examples, no special tags in the folder name
 # the sequences of "grep -v" statements filters entries with line coverage in a range so that: 45.00% <= LC < 76.00%
-  sed -n "/^${ALT}/,/^$/p" ${PCOV_FILE}| grep "test_id" | grep "lines= [4567].\." | grep -v "lines= 4[01234]\." | grep -v "lines= 7[6789]\." | shuf | head -n ${IMPLEMENTATION_DEPENDENT_TESTSUITE_SIZE} | sort > ${IMPLEMENTATION_DEPENDENT_TESTSUITE_FILE}
+#   sed -n "/^${ALT}/,/^$/p" ${PCOV_FILE}| grep "test_id" | grep "lines= [4567].\." | grep -v "lines= 4[01234]\." | grep -v "lines= 7[6789]\." | shuf | head -n ${IMPLEMENTATION_DEPENDENT_TESTSUITE_SIZE} | sort > ${IMPLEMENTATION_DEPENDENT_TESTSUITE_FILE}
+# Examples with an Low coverage rate, folder names are tagged as "Low"
+# the sequences of "grep -v" statements filters entries with line coverage in a range so that: 45.00% <= LC < 60.00%
+  sed -n "/^${ALT}/,/^$/p" ${PCOV_FILE}| grep "test_id" | grep "lines= [456].\." | grep -v "lines= 4[01234]\." | grep -v "lines= 6[0]\." | shuf | head -n ${IMPLEMENTATION_DEPENDENT_TESTSUITE_SIZE} | sort > ${IMPLEMENTATION_DEPENDENT_TESTSUITE_FILE}
   TEST_LIST_SIZE=`cat ${IMPLEMENTATION_DEPENDENT_TESTSUITE_FILE} | wc -l`
   echo "TEST SUITE SIZE: ${TEST_LIST_SIZE}"
  
