@@ -8,3 +8,4 @@
 - `populateDataForExperiment.sh`: Note the current implementation is configured to work only on few folders (i.e., "Experiment-4ImplIndTests" and "Experiment-2ImplIndTests") and just for 1 Run Change/Adapt these parameters manually in the implementation. However, based on the results of the script coverage_symulator.py, and for each pair of implementations A and B:
 1. it computes the true-cross tests (i.e. tcts) from A on B
 1. it computes the cross coverage scores from the execution of the implementation independent TS and the tcts on B
+
