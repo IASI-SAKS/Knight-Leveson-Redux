@@ -3,23 +3,118 @@
 POSITIONAL_ARGS=()
 if [ $# -eq 0 ]
 then
-      echo "Use partameters: \"-t\" or \"-f\""
+      echo "Some partameters are mandaroty"
       echo "Run: $0 --help"
       exit 1
 fi
 
+# while [[ $# -gt 0 ]]; do
+#   case $1 in
+#     -z|--zero)
+#       MAGIC_NUMBER="0"
+#       shift # past argument
+#       ;;
+#     -t|--two)
+#       MAGIC_NUMBER="2"
+#       shift # past argument
+#       ;;
+#     -T|--TWO)
+# #       MAGIC_NUMBER="2High"
+#       MAGIC_NUMBER="2Low"
+#       shift # past argument
+#       ;;
+#     -f|--four)
+#       MAGIC_NUMBER="4"
+#       shift # past argument
+#       ;;
+#     -F|--FOUR)
+# #       MAGIC_NUMBER="4VeryHigh"
+# #       MAGIC_NUMBER="4High"
+#       MAGIC_NUMBER="4Low"
+#       shift # past argument
+#       ;;
+#     -v|--five)
+#       MAGIC_NUMBER="5"
+#       shift # past argument
+#       ;;
+#     -V|--FIVE)
+# #       MAGIC_NUMBER="5VeryHigh"
+# #       MAGIC_NUMBER="5High"
+#       MAGIC_NUMBER="5Low"
+#       shift # past argument
+#       ;;
+#     -s|--six)
+#       MAGIC_NUMBER="6"
+#       shift # past argument
+#       ;;
+#     -S|--SIX)
+# #       MAGIC_NUMBER="6VeryHigh"
+# #       MAGIC_NUMBER="6High"
+#       MAGIC_NUMBER="6Low"
+#       shift # past argument
+#       ;;
+#     -e|--eight)
+#       MAGIC_NUMBER="8"
+#       shift # past argument
+#       ;;
+#     -E|--EIGHT)
+# #       MAGIC_NUMBER="8VeryHigh"
+# #       MAGIC_NUMBER="8High"
+#       MAGIC_NUMBER="8Low"
+#       shift # past argument
+#       ;;
+#     -x|--ten)
+#       MAGIC_NUMBER="10"
+#       shift # past argument
+#       ;;
+#     -X|--TEN)
+# #       MAGIC_NUMBER="10VeryHigh"
+# #       MAGIC_NUMBER="10High"
+#       MAGIC_NUMBER="10Low"
+#       shift # past argument
+#       ;;
+#     -xx|--twenty)
+#       MAGIC_NUMBER="20"
+#       shift # past argument
+#       ;;
+#     -XX|--TWENTY)
+# #       MAGIC_NUMBER="20VeryHigh"
+# #       MAGIC_NUMBER="20High"
+#       MAGIC_NUMBER="20Low"
+#       shift # past argument
+#       ;;
+#     -h|--help)
+#       echo "$0 <[-z|--zero]|[-t|--two]|[-T|--TWO]|[-f|--four]|[-F|--FOUR]|[-v|--five]|[-V|--FIVE]|[-s|--six]|[-S|--SIX]|[-e|--eight]|[-E|--EIGHT]|[-x|--ten]|[-X|--TEN]|[-xx|--twenty]|[-XX|--TWENTY]> [-h|--help]"
+#       exit 1
+#       ;;
+#     -*|--*)
+#       echo "Unknown option $1"
+#       echo "Run: $0 --help"
+#       exit 1
+#       ;;
+#     *)
+#       POSITIONAL_ARGS+=("$1") # save positional arg
+#       shift # past argument
+#       ;;
+#   esac
+# done
+MAGIC_NUMBER="4"
+MAGIC_SUFFIX=""
+
 while [[ $# -gt 0 ]]; do
   case $1 in
-    -t|--two)
-      MAGIC_NUMBER="2"
+    -n|--magic-number)
+      MAGIC_NUMBER="$2"
+      shift # past option
       shift # past argument
       ;;
-    -f|--four)
-      MAGIC_NUMBER="4"
+    -s|--suffix)
+      MAGIC_SUFFIX="$2"
+      shift # past option
       shift # past argument
       ;;
     -h|--help)
-      echo "$0 <[-t|--two]|[-f|--four]> [-h|--help]"
+      echo "$0 [-n|--magic-number <n>] [-s|--suffix <str>] [-h|--help]"
       exit 1
       ;;
     -*|--*)
@@ -34,18 +129,33 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-# for iter in 1 2 3 4 5 6 7 8 9 10
-for iter in 1 
+MAGIC_LABEL="${MAGIC_NUMBER}${MAGIC_SUFFIX}"
+
+for iter in 1 2 3 4 5 6 7 8 9 10
+# for iter in 2 3 4 5 6 7 8 9 10
+# for iter in 1 
+# for iter in 2 
+# for iter in 3 4 5
+# for iter in 6 7 8 9 10
 do 
     echo "************ Processsing Run ${iter}"
     
-    EXPDIR="Experiment-${MAGIC_NUMBER}ImplIndTests"
+    EXPDIR="Experiment-${MAGIC_LABEL}ImplIndTests"
     RUNDIR="${EXPDIR}/Run${iter}"
         
-    PAR_IMPLEMENTATIONS="${EXPDIR}/alternativeImplementations-${MAGIC_NUMBER}ImplIndTests.txt"
-    PAR_INDEPENDENT_SUITE="${RUNDIR}/implementationIndependentTestSuite-${MAGIC_NUMBER}ImplIndTests-run${iter}.txt"
-    PAR_DEPENDENT_DIR="${RUNDIR}/ImplementationDependentTestSuites-${MAGIC_NUMBER}ImplIndTests-run${iter}"
+    PAR_IMPLEMENTATIONS="${EXPDIR}/alternativeImplementations-${MAGIC_LABEL}ImplIndTests.txt"
+    PAR_INDEPENDENT_SUITE="${RUNDIR}/implementationIndependentTestSuite-${MAGIC_LABEL}ImplIndTests-run${iter}.txt"
+    PAR_DEPENDENT_DIR="${RUNDIR}/ImplementationDependentTestSuites-${MAGIC_LABEL}ImplIndTests-run${iter}"
     PAR_OUTPUTDIR="${RUNDIR}/output";
+
+echo "Configuration:"
+echo "  * $EXPDIR"
+echo "  * $RUNDIR"
+echo "  * $PAR_IMPLEMENTATIONS"
+echo "  * $PAR_INDEPENDENT_SUITE"
+echo "  * $PAR_DEPENDENT_DIR"
+echo "  * $PAR_OUTPUTDIR"
+
 
     mkdir ${PAR_OUTPUTDIR}
     
@@ -131,5 +241,4 @@ do
         done
         echo " ... done"
     done
-exit 1
 done
