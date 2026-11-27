@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,41,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,cursor__m_composer-2__l_python__run000,236,284,83.09859154929578,236,N/A,N/A,78,146,53.42465753424658,78,N/A,N/A
+2,independent,2,35,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,cursor__m_composer-2__l_python__run000,256,284,90.14084507042253,20,N/A,N/A,89,146,60.95890410958904,11,N/A,N/A
+3,dependent,1,45,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,cursor__m_composer-2__l_python__run000,258,284,90.84507042253522,2,2,0.704225352112676,95,146,65.06849315068493,6,6,4.109589041095891
+4,dependent,2,56,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,cursor__m_composer-2__l_python__run000,258,284,90.84507042253522,0,2,0.704225352112676,96,146,65.75342465753425,1,7,4.794520547945205
+5,dependent,3,60,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,2,4,1.408450704225352,98,146,67.12328767123287,2,8,5.47945205479452
+6,dependent,4,64,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,3,1.056338028169014,100,146,68.4931506849315,2,9,6.164383561643835
+7,dependent,5,68,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,2,0.704225352112676,102,146,69.86301369863014,2,10,6.8493150684931505
+8,dependent,6,76,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,2,0.704225352112676,108,146,73.97260273972603,6,13,8.904109589041095
+9,dependent,7,9,opencode__m_qwen_qwen3.5-397b-a17b__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,2,0.704225352112676,108,146,73.97260273972603,0,6,4.109589041095891

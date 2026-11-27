@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+3,dependent,1,16,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,278,328,84.7560975609756,6,6,1.829268292682927,101,160,63.125,7,7,4.375
+4,dependent,2,1,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,279,328,85.0609756097561,1,6,1.829268292682927,102,160,63.75,1,6,3.75
+5,dependent,3,20,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,279,328,85.0609756097561,0,5,1.524390243902439,102,160,63.75,0,5,3.125
+6,dependent,4,24,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,282,328,85.97560975609755,3,9,2.7439024390243905,105,160,65.625,3,10,6.25
+7,dependent,5,30,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,284,328,86.58536585365853,2,9,2.7439024390243905,108,160,67.5,3,11,6.875
+8,dependent,6,34,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,284,328,86.58536585365853,0,6,1.829268292682927,108,160,67.5,0,7,4.375
+9,dependent,7,51,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,284,328,86.58536585365853,0,11,3.3536585365853657,108,160,67.5,0,12,7.5
+10,dependent,8,69,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,285,328,86.89024390243902,1,8,2.4390243902439024,111,160,69.375,3,10,6.25
+11,dependent,9,71,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,285,328,86.89024390243902,0,6,1.829268292682927,111,160,69.375,0,6,3.75
+12,dependent,10,92,claude_code__m_claude-sonnet-4.6__l_python__run000,codex__m_gpt-5.2__l_python__run000,285,328,86.89024390243902,0,7,2.1341463414634148,111,160,69.375,0,7,4.375

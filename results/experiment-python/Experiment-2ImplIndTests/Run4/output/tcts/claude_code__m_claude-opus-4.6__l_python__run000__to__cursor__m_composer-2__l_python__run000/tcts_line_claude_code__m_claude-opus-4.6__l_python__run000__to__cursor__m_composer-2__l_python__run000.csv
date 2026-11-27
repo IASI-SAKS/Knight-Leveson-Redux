@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+3,dependent,1,31,claude_code__m_claude-opus-4.6__l_python__run000,cursor__m_composer-2__l_python__run000,252,284,88.73239436619718,3,3,1.056338028169014,96,146,65.75342465753425,9,9,6.164383561643835
+4,dependent,2,33,claude_code__m_claude-opus-4.6__l_python__run000,cursor__m_composer-2__l_python__run000,255,284,89.78873239436619,3,4,1.408450704225352,100,146,68.4931506849315,4,10,6.8493150684931505
+5,dependent,3,34,claude_code__m_claude-opus-4.6__l_python__run000,cursor__m_composer-2__l_python__run000,255,284,89.78873239436619,0,2,0.704225352112676,100,146,68.4931506849315,0,6,4.109589041095891
+6,dependent,4,3,claude_code__m_claude-opus-4.6__l_python__run000,cursor__m_composer-2__l_python__run000,255,284,89.78873239436619,0,3,1.056338028169014,100,146,68.4931506849315,0,11,7.534246575342466
+8,dependent,6,56,claude_code__m_claude-opus-4.6__l_python__run000,cursor__m_composer-2__l_python__run000,255,284,89.78873239436619,0,4,1.408450704225352,100,146,68.4931506849315,0,8,5.47945205479452
+9,dependent,7,71,claude_code__m_claude-opus-4.6__l_python__run000,cursor__m_composer-2__l_python__run000,255,284,89.78873239436619,0,4,1.408450704225352,100,146,68.4931506849315,0,8,5.47945205479452
+10,dependent,8,85,claude_code__m_claude-opus-4.6__l_python__run000,cursor__m_composer-2__l_python__run000,255,284,89.78873239436619,0,4,1.408450704225352,100,146,68.4931506849315,0,8,5.47945205479452
+11,dependent,9,94,claude_code__m_claude-opus-4.6__l_python__run000,cursor__m_composer-2__l_python__run000,255,284,89.78873239436619,0,4,1.408450704225352,100,146,68.4931506849315,0,8,5.47945205479452
+12,dependent,10,96,claude_code__m_claude-opus-4.6__l_python__run000,cursor__m_composer-2__l_python__run000,255,284,89.78873239436619,0,4,1.408450704225352,103,146,70.54794520547945,3,13,8.904109589041095

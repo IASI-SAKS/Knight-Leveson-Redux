@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,41,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,177,216,81.94444444444444,177,N/A,N/A,78,142,54.929577464788736,78,N/A,N/A
+2,independent,2,35,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,197,216,91.20370370370371,20,N/A,N/A,89,142,62.67605633802817,11,N/A,N/A
+3,dependent,1,28,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,198,216,91.66666666666667,1,1,0.46296296296296297,100,142,70.4225352112676,11,11,7.746478873239437
+4,dependent,2,33,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,198,216,91.66666666666667,0,1,0.46296296296296297,100,142,70.4225352112676,0,11,7.746478873239437
+5,dependent,3,37,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,199,216,92.12962962962963,1,1,0.46296296296296297,101,142,71.12676056338029,1,10,7.042253521126761
+6,dependent,4,45,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,199,216,92.12962962962963,0,1,0.46296296296296297,101,142,71.12676056338029,0,6,4.225352112676056
+7,dependent,5,70,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,199,216,92.12962962962963,0,1,0.46296296296296297,101,142,71.12676056338029,0,9,6.338028169014085
+8,dependent,6,7,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,199,216,92.12962962962963,0,1,0.46296296296296297,107,142,75.35211267605634,6,13,9.154929577464788
+9,dependent,7,98,codex__m_gpt-5.2__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,205,216,94.9074074074074,6,6,2.7777777777777777,114,142,80.28169014084507,7,15,10.56338028169014

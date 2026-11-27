@@ -1,0 +1,5 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+4,dependent,2,44,claude_code__m_claude-sonnet-4.6__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,1,1,0.352112676056338,103,146,70.54794520547945,4,11,7.534246575342466
+7,dependent,5,69,claude_code__m_claude-sonnet-4.6__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,1,0.352112676056338,106,146,72.6027397260274,3,12,8.219178082191782
+10,dependent,8,79,claude_code__m_claude-sonnet-4.6__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,1,0.352112676056338,106,146,72.6027397260274,0,7,4.794520547945205
+11,dependent,9,84,claude_code__m_claude-sonnet-4.6__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,1,0.352112676056338,106,146,72.6027397260274,0,7,4.794520547945205

@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+3,dependent,1,15,cursor__m_composer-2.5__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,195,216,90.27777777777777,7,7,3.240740740740741,105,142,73.94366197183099,14,14,9.859154929577464
+4,dependent,2,28,cursor__m_composer-2.5__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,195,216,90.27777777777777,0,1,0.46296296296296297,106,142,74.64788732394366,1,8,5.633802816901408
+5,dependent,3,44,cursor__m_composer-2.5__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,195,216,90.27777777777777,0,0,0.0,107,142,75.35211267605634,1,8,5.633802816901408
+6,dependent,4,69,cursor__m_composer-2.5__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,195,216,90.27777777777777,0,6,2.7777777777777777,108,142,76.05633802816901,1,13,9.154929577464788
+7,dependent,5,6,cursor__m_composer-2.5__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,195,216,90.27777777777777,0,0,0.0,108,142,76.05633802816901,0,5,3.5211267605633805
+8,dependent,6,73,cursor__m_composer-2.5__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,195,216,90.27777777777777,0,0,0.0,108,142,76.05633802816901,0,5,3.5211267605633805
+9,dependent,7,83,cursor__m_composer-2.5__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,195,216,90.27777777777777,0,0,0.0,108,142,76.05633802816901,0,1,0.704225352112676
+11,dependent,9,92,cursor__m_composer-2.5__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,195,216,90.27777777777777,0,0,0.0,108,142,76.05633802816901,0,5,3.5211267605633805
+12,dependent,10,94,cursor__m_composer-2.5__l_python__run000,opencode__m_google_gemma-4-31b-it__l_python__run000,195,216,90.27777777777777,0,1,0.46296296296296297,108,142,76.05633802816901,0,6,4.225352112676056

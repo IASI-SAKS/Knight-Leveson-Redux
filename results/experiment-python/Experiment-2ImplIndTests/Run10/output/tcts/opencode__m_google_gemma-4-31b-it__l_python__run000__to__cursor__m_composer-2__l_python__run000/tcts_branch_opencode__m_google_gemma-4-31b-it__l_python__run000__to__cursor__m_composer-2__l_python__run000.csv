@@ -1,0 +1,11 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+3,dependent,1,1,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,258,284,90.84507042253522,2,2,0.704225352112676,95,146,65.06849315068493,6,6,4.109589041095891
+4,dependent,2,24,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,258,284,90.84507042253522,0,0,0.0,100,146,68.4931506849315,5,10,6.8493150684931505
+5,dependent,3,33,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,259,284,91.19718309859155,1,3,1.056338028169014,101,146,69.17808219178082,1,12,8.219178082191782
+6,dependent,4,51,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,1,1,0.352112676056338,103,146,70.54794520547945,2,12,8.219178082191782
+7,dependent,5,69,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,1,0.352112676056338,106,146,72.6027397260274,3,11,7.534246575342466
+8,dependent,6,6,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,0,0.0,106,146,72.6027397260274,0,5,3.4246575342465753
+9,dependent,7,79,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,3,1.056338028169014,106,146,72.6027397260274,0,10,6.8493150684931505
+10,dependent,8,96,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,2,0.704225352112676,106,146,72.6027397260274,0,11,7.534246575342466
+11,dependent,9,97,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,0,0.0,106,146,72.6027397260274,0,6,4.109589041095891
+12,dependent,10,98,opencode__m_google_gemma-4-31b-it__l_python__run000,cursor__m_composer-2__l_python__run000,260,284,91.54929577464789,0,0,0.0,106,146,72.6027397260274,0,11,7.534246575342466

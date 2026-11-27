@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+3,dependent,1,26,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,270,297,90.9090909090909,14,14,4.713804713804714,112,162,69.1358024691358,4,4,2.4691358024691357
+4,dependent,2,36,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,271,297,91.24579124579125,1,1,0.3367003367003367,114,162,70.37037037037037,2,2,1.2345679012345678
+5,dependent,3,37,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,272,297,91.58249158249158,1,1,0.3367003367003367,117,162,72.22222222222223,3,3,1.8518518518518519
+6,dependent,4,4,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,272,297,91.58249158249158,0,15,5.05050505050505,117,162,72.22222222222223,0,7,4.320987654320987
+8,dependent,6,6,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,273,297,91.91919191919192,1,11,3.7037037037037037,118,162,72.8395061728395,1,3,1.8518518518518519
+9,dependent,7,76,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,274,297,92.25589225589225,1,1,0.3367003367003367,119,162,73.45679012345678,1,1,0.6172839506172839
+10,dependent,8,89,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,274,297,92.25589225589225,0,1,0.3367003367003367,119,162,73.45679012345678,0,1,0.6172839506172839
+11,dependent,9,91,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,275,297,92.5925925925926,1,8,2.6936026936026938,120,162,74.07407407407408,1,7,4.320987654320987
+12,dependent,10,96,codex__m_gpt-5.4__l_python__run000,claude_code__m_claude-sonnet-4.5__l_python__run000,276,297,92.92929292929293,1,8,2.6936026936026938,122,162,75.30864197530865,2,6,3.7037037037037037

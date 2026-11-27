@@ -1,0 +1,10 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+4,dependent,2,55,codex__m_gpt-5.3-codex__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,191,217,88.0184331797235,4,4,1.8433179723502304,98,144,68.05555555555556,3,8,5.555555555555555
+5,dependent,3,57,codex__m_gpt-5.3-codex__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,191,217,88.0184331797235,0,4,1.8433179723502304,98,144,68.05555555555556,0,8,5.555555555555555
+6,dependent,4,60,codex__m_gpt-5.3-codex__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,193,217,88.94009216589862,2,2,0.9216589861751152,99,144,68.75,1,6,4.166666666666667
+7,dependent,5,67,codex__m_gpt-5.3-codex__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,193,217,88.94009216589862,0,2,0.9216589861751152,99,144,68.75,0,6,4.166666666666667
+8,dependent,6,71,codex__m_gpt-5.3-codex__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,193,217,88.94009216589862,0,6,2.7649769585253456,99,144,68.75,0,9,6.25
+9,dependent,7,84,codex__m_gpt-5.3-codex__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,193,217,88.94009216589862,0,2,0.9216589861751152,99,144,68.75,0,6,4.166666666666667
+10,dependent,8,92,codex__m_gpt-5.3-codex__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,193,217,88.94009216589862,0,2,0.9216589861751152,99,144,68.75,0,6,4.166666666666667
+11,dependent,9,97,codex__m_gpt-5.3-codex__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,195,217,89.86175115207374,2,5,2.304147465437788,101,144,70.13888888888889,2,10,6.944444444444445
+12,dependent,10,9,codex__m_gpt-5.3-codex__l_python__run000,gemini__m_gemini-3-flash-preview__l_python__run000,195,217,89.86175115207374,0,6,2.7649769585253456,101,144,70.13888888888889,0,9,6.25

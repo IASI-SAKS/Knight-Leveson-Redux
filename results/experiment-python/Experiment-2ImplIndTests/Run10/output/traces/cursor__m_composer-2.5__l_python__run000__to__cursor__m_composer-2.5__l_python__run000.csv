@@ -1,0 +1,13 @@
+step,suite_type,suite_position,test_id,source_implementation,target_implementation,covered_lines,total_lines,line_percent,new_lines_cumulatively_covered,new_lines_covered,delta_line_percent_vs_independent,covered_branches,total_branches,branch_percent,new_branches_cumulatively_covered,new_branches_covered,delta_branch_percent_vs_independent
+1,independent,1,41,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,208,285,72.98245614035088,208,N/A,N/A,78,156,50.0,78,N/A,N/A
+2,independent,2,35,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,234,285,82.10526315789474,26,N/A,N/A,94,156,60.256410256410255,16,N/A,N/A
+3,dependent,1,16,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,243,285,85.26315789473684,9,9,3.1578947368421053,104,156,66.66666666666667,10,10,6.410256410256411
+4,dependent,2,17,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,246,285,86.3157894736842,3,8,2.807017543859649,108,156,69.23076923076923,4,9,5.769230769230769
+5,dependent,3,2,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,253,285,88.7719298245614,7,13,4.56140350877193,115,156,73.71794871794872,7,14,8.974358974358974
+6,dependent,4,31,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,253,285,88.7719298245614,0,7,2.456140350877193,115,156,73.71794871794872,0,9,5.769230769230769
+7,dependent,5,37,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,253,285,88.7719298245614,0,8,2.807017543859649,115,156,73.71794871794872,0,10,6.410256410256411
+8,dependent,6,38,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,253,285,88.7719298245614,0,7,2.456140350877193,115,156,73.71794871794872,0,9,5.769230769230769
+9,dependent,7,55,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,253,285,88.7719298245614,0,5,1.7543859649122806,115,156,73.71794871794872,0,5,3.2051282051282053
+10,dependent,8,71,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,253,285,88.7719298245614,0,6,2.1052631578947367,115,156,73.71794871794872,0,6,3.8461538461538463
+11,dependent,9,74,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,253,285,88.7719298245614,0,13,4.56140350877193,115,156,73.71794871794872,0,13,8.333333333333334
+12,dependent,10,94,cursor__m_composer-2.5__l_python__run000,cursor__m_composer-2.5__l_python__run000,253,285,88.7719298245614,0,7,2.456140350877193,115,156,73.71794871794872,0,8,5.128205128205129
